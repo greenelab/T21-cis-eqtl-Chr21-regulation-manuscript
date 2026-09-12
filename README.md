@@ -10,8 +10,8 @@
 
 <!-- usage note: edit this section. -->
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+Down syndrome (DS) results from trisomy of human chromosome 21 (HSA21). On average, genes on HSA21 are overexpressed at the expected 1.5-fold increase1. A small subset of HSA21 genes is expressed closer to euploid controls or higher than the expected 1.5-fold increase. Could local genetic regulatory variation explain deviations from the expected dosage? Here we assess how cis-eQTLs on HSA21 affect whole blood gene transcription in a large cohort of individuals with and without DS.
+
 
 ## Manubot
 
