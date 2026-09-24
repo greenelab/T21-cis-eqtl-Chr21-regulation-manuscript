@@ -1,5 +1,5 @@
 ---
-title: "Manuscript Title"
+title: "Cis-gene regulation explains most chromosome 21 expression deviations from the ploidy expectation in Down syndrome"
 date: null  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
   - markdown
@@ -7,24 +7,29 @@ keywords:
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    mastodon: johndoe
-    mastodon-server: mastodon.social
-    email: john.doe@something.com
+  - name: Lucas A. Gillenwater
+    initials: LAG
+    orcid: 0000-0003-3158-9682
+    email: lucas.gillenwater@cuanschutz.edu
     affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+      - Department of Biomedical Informatics, University of Colorado Anschutz, Aurora, CO
+  - name: Marc Subirana-Granés
+    initials: MSG
+    orcid: 0000-0003-3934-839X
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
-    corresponding: true
+      - Department of Biomedical Informatics, University of Colorado Anschutz, Aurora, CO
+  - name: Mary A. Allen
+    initials: MAA
+    orcid: 0000-0001-7490-0165
+    affiliations:
+      - BioFrontiers Institute, University of Colorado Boulder, Boulder, CO
+  - name: Milton Pividori
+    initials: MP
+    orcid: 0000-0002-3035-4403
+    affiliations:
+      - Department of Biomedical Informatics, University of Colorado Anschutz, Aurora, CO
+  - name: Casey S. Greene
+    initials: CSG
+    orcid: 0000-0001-8713-9213
+    affiliations:
+      - Department of Biomedical Informatics, University of Colorado Anschutz, Aurora, CO
