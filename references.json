@@ -1,431 +1,1086 @@
 [
   {
-    "publisher": "The Royal Society",
-    "issue": "141",
-    "abstract": "<jats:p>Deep learning describes a class of machine learning algorithms that are capable of combining raw inputs into layers of intermediate features. These algorithms have recently shown impressive results across a variety of domains. Biology and medicine are data-rich disciplines, but the data are complex and often ill-understood. Hence, deep learning techniques may be particularly well suited to solve problems of these fields. We examine applications of deep learning to a variety of biomedical problems—patient classification, fundamental biological processes and treatment of patients—and discuss whether deep learning will be able to transform these tasks or if the biomedical sphere poses unique challenges. Following from an extensive literature review, we find that deep learning has yet to revolutionize biomedicine or definitively resolve any of the most pressing challenges in the field, but promising advances have been made on the prior state of the art. Even though improvements over previous baselines have been modest in general, the recent progress indicates that deep learning methods will provide valuable means for speeding up or aiding human investigation. Though progress has been made linking a specific neural network's prediction to input features, understanding how users should interpret these models to make testable hypotheses about the system under study remains an open challenge. Furthermore, the limited amount of labelled data for training presents problems in some domains, as do legal and privacy constraints on work with sensitive health records. Nonetheless, we foresee deep learning enabling changes at both bench and bedside with the potential to transform several areas of biology and medicine.</jats:p>",
-    "DOI": "10.1098/rsif.2017.0387",
+    "publisher": "Elsevier BV",
+    "issue": "9",
+    "DOI": "/10.1016/j.numecd.2020.05.012",
     "type": "article-journal",
+    "page": "1564-1572",
     "source": "Crossref",
-    "title": "Opportunities and obstacles for deep learning in biology and medicine",
-    "volume": "15",
+    "title": "PNPLA3 gene polymorphism is associated with liver steatosis in children with Down syndrome",
+    "volume": "30",
     "author": [
       {
-        "given": "Travers",
-        "family": "Ching"
+        "given": "Diletta",
+        "family": "Valentini"
       },
       {
-        "given": "Daniel S.",
-        "family": "Himmelstein"
+        "given": "Antonella",
+        "family": "Mosca"
       },
       {
-        "given": "Brett K.",
-        "family": "Beaulieu-Jones"
+        "given": "Chiara",
+        "family": "Di Camillo"
       },
       {
-        "given": "Alexandr A.",
-        "family": "Kalinin"
+        "given": "Annalisa",
+        "family": "Crudele"
       },
       {
-        "given": "Brian T.",
-        "family": "Do"
+        "given": "Maria Rita",
+        "family": "Sartorelli"
       },
       {
-        "given": "Gregory P.",
-        "family": "Way"
+        "given": "Vittorio",
+        "family": "Scoppola"
       },
       {
-        "given": "Enrico",
-        "family": "Ferrero"
+        "given": "Luigi",
+        "family": "Tarani"
       },
       {
-        "given": "Paul-Michael",
-        "family": "Agapow"
+        "given": "Alberto",
+        "family": "Villani"
       },
       {
-        "given": "Michael",
-        "family": "Zietz"
+        "given": "Massimiliano",
+        "family": "Raponi"
       },
       {
-        "given": "Michael M.",
-        "family": "Hoffman"
+        "given": "Antonio",
+        "family": "Novelli"
       },
       {
-        "given": "Wei",
-        "family": "Xie"
-      },
-      {
-        "given": "Gail L.",
-        "family": "Rosen"
-      },
-      {
-        "given": "Benjamin J.",
-        "family": "Lengerich"
-      },
-      {
-        "given": "Johnny",
-        "family": "Israeli"
-      },
-      {
-        "given": "Jack",
-        "family": "Lanchantin"
-      },
-      {
-        "given": "Stephen",
-        "family": "Woloszynek"
-      },
-      {
-        "given": "Anne E.",
-        "family": "Carpenter"
-      },
-      {
-        "given": "Avanti",
-        "family": "Shrikumar"
-      },
-      {
-        "given": "Jinbo",
-        "family": "Xu"
-      },
-      {
-        "given": "Evan M.",
-        "family": "Cofer"
-      },
-      {
-        "given": "Christopher A.",
-        "family": "Lavender"
-      },
-      {
-        "given": "Srinivas C.",
-        "family": "Turaga"
-      },
-      {
-        "given": "Amr M.",
-        "family": "Alexandari"
-      },
-      {
-        "given": "Zhiyong",
-        "family": "Lu"
-      },
-      {
-        "given": "David J.",
-        "family": "Harris"
-      },
-      {
-        "given": "Dave",
-        "family": "DeCaprio"
-      },
-      {
-        "given": "Yanjun",
-        "family": "Qi"
-      },
-      {
-        "given": "Anshul",
-        "family": "Kundaje"
-      },
-      {
-        "given": "Yifan",
-        "family": "Peng"
-      },
-      {
-        "given": "Laura K.",
-        "family": "Wiley"
-      },
-      {
-        "given": "Marwin H. S.",
-        "family": "Segler"
-      },
-      {
-        "given": "Simina M.",
-        "family": "Boca"
-      },
-      {
-        "given": "S. Joshua",
-        "family": "Swamidass"
-      },
-      {
-        "given": "Austin",
-        "family": "Huang"
-      },
-      {
-        "given": "Anthony",
-        "family": "Gitter"
-      },
-      {
-        "given": "Casey S.",
-        "family": "Greene"
+        "given": "Anna",
+        "family": "Alisi"
       }
     ],
-    "container-title": "Journal of The Royal Society Interface",
+    "container-title": "Nutrition, Metabolism and Cardiovascular Diseases",
     "language": "en",
     "issued": {
       "date-parts": [
         [
-          2018,
-          4
+          2020,
+          8
         ]
       ]
     },
-    "URL": "https://doi.org/gddkhn",
-    "container-title-short": "J. R. Soc. Interface.",
-    "PMCID": "PMC5938574",
-    "PMID": "29618526",
-    "id": "PZMP42Ak",
-    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1098/rsif.2017.0387"
+    "URL": "https://doi.org//10.1016/j.numecd.2020.05.012",
+    "container-title-short": "Nutrition, Metabolism and Cardiovascular Diseases",
+    "id": "1GHjcNlzC",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:/10.1016/j.numecd.2020.05.012"
   },
   {
-    "publisher": "Public Library of Science (PLoS)",
-    "issue": "6",
-    "DOI": "10.1371/journal.pcbi.1007128",
+    "publisher": "Wiley",
+    "issue": "4",
+    "abstract": "<jats:title>ABSTRACT</jats:title><jats:p>Congenital heart defects (CHDs) are the most common structural birth defect and are present in 40%–50% of children born with Down syndrome (DS). To characterize the genetic architecture of DS‐associated CHD, we sequenced genomes of a multiethnic group of children with DS and a CHD (<jats:italic>n</jats:italic> = 886: atrioventricular septal defects (AVSD), <jats:italic>n</jats:italic> = 438; atrial septal defects (ASD), <jats:italic>n</jats:italic> = 122; ventricular septal defects (VSD), <jats:italic>n</jats:italic> = 170; other types of CHD, <jats:italic>n</jats:italic> = 156) and DS with a structurally normal heart (DS + NH, <jats:italic>n</jats:italic> = 572). We performed four genome‐wide association study (GWAS) for common variants (MAF &gt; 0.05) comparing DS with CHD, stratified by CHD‐subtype, to DS + NH controls. Although no SNP achieved genome‐wide significance, multiple loci in each analysis achieved suggestive significance (<jats:italic>p</jats:italic> &lt; 2 × 10<jats:sup>−6</jats:sup>). Of these, the 1p35.1 locus (near <jats:italic>RBBP4</jats:italic>) was specifically associated with ASD risk, and the 5q35.2 locus (near <jats:italic>MSX2</jats:italic>) was associated with any type of CHD. Each of the suggestive loci contained one or more plausible candidate genes expressed in the developing heart. While no SNP replicated (<jats:italic>p</jats:italic> &lt; 2 × 10<jats:sup>−6</jats:sup>) in an independent cohort of DS + CHD (DS + CHD: <jats:italic>n</jats:italic> = 229; DS + NH: <jats:italic>n</jats:italic> = 197), most SNPs that were suggestive in our GWASs remained suggestive when meta‐analyzed with the GWASs from the replication cohort. These results build on previous work to identify genetic modifiers of DS‐associated CHD.</jats:p>",
+    "DOI": "10.1002/gepi.70010",
     "type": "article-journal",
-    "page": "e1007128",
     "source": "Crossref",
-    "title": "Open collaborative writing with Manubot",
-    "volume": "15",
+    "title": "Genome‐Wide Association Studies of Down Syndrome Associated Congenital Heart Defects Suggests a Genetically Heterogeneous Risk for CHD in DS",
+    "volume": "49",
     "author": [
       {
-        "given": "Daniel S.",
-        "family": "Himmelstein"
+        "given": "Elizabeth R.",
+        "family": "Feldman"
       },
       {
-        "given": "Vincent",
-        "family": "Rubinetti"
+        "given": "Yunqi",
+        "family": "Li"
       },
       {
-        "given": "David R.",
-        "family": "Slochower"
+        "given": "David J.",
+        "family": "Cutler"
       },
       {
-        "given": "Dongbo",
-        "family": "Hu"
+        "given": "Tracie C.",
+        "family": "Rosser"
       },
       {
-        "given": "Venkat S.",
-        "family": "Malladi"
+        "given": "Stephanie B.",
+        "family": "Wechsler"
       },
       {
-        "given": "Casey S.",
-        "family": "Greene"
+        "given": "Lauren",
+        "family": "Sanclemente"
       },
       {
-        "given": "Anthony",
-        "family": "Gitter"
+        "given": "Angela L.",
+        "family": "Rachubinski"
+      },
+      {
+        "given": "Natalina",
+        "family": "Elliott"
+      },
+      {
+        "given": "Paresh",
+        "family": "Vyas"
+      },
+      {
+        "given": "Irene",
+        "family": "Roberts"
+      },
+      {
+        "given": "Karen R.",
+        "family": "Rabin"
+      },
+      {
+        "given": "Michael",
+        "family": "Wagner"
+      },
+      {
+        "given": "Bruce D.",
+        "family": "Gelb"
+      },
+      {
+        "given": "Joaquin M.",
+        "family": "Espinosa"
+      },
+      {
+        "given": "Philip J.",
+        "family": "Lupo"
+      },
+      {
+        "given": "Adam J.",
+        "family": "de Smith"
+      },
+      {
+        "given": "Stephanie L.",
+        "family": "Sherman"
+      },
+      {
+        "given": "Elizabeth J.",
+        "family": "Leslie‐Clarkson"
       }
     ],
-    "container-title": "PLOS Computational Biology",
+    "container-title": "Genetic Epidemiology",
     "language": "en",
-    "editor": [
-      {
-        "given": "Dina",
-        "family": "Schneidman-Duhovny"
-      }
-    ],
     "issued": {
       "date-parts": [
         [
-          2019,
-          6,
+          2025,
+          5,
+          23
+        ]
+      ]
+    },
+    "URL": "https://doi.org/hcjc5j",
+    "container-title-short": "Genetic Epidemiology",
+    "PMCID": "PMC12278782",
+    "PMID": "40407036",
+    "id": "11aafyDIp",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1002/gepi.70010"
+  },
+  {
+    "publisher": "Wiley",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Individuals with Down syndrome (DS) are diagnosed with autism spectrum disorder (ASD) at a significantly higher frequency than the typical population. The differentiation of ASD symptoms from those of severe intellectual disability presents diagnostic challenges, which have led to more refined methods in the clinical evaluation of ASD in DS. These improved phenotypic characterization methods not only provide better diagnosis of ASD in DS, but may also be useful in elucidating the etiology of the increased prevalence of ASD in DS. Because all individuals with the classic presentation of DS have trisomy 21, it is possible that those with co‐occurring DS and ASD may have additional genetic variants which can act as modifiers of the phenotype, leading to the development of ASD. © 2016 John Wiley &amp; Sons, Ltd.</jats:p>",
+    "DOI": "10.1002/pd.4957",
+    "type": "article-journal",
+    "page": "31-36",
+    "source": "Crossref",
+    "title": "The co‐occurrence of Down syndrome and autism spectrum disorder: is it because of additional genetic variations?",
+    "volume": "37",
+    "author": [
+      {
+        "given": "Angela L.",
+        "family": "Rachubinski"
+      },
+      {
+        "given": "Susan",
+        "family": "Hepburn"
+      },
+      {
+        "given": "Ellen R.",
+        "family": "Elias"
+      },
+      {
+        "given": "Katheleen",
+        "family": "Gardiner"
+      },
+      {
+        "given": "Tamim H.",
+        "family": "Shaikh"
+      }
+    ],
+    "container-title": "Prenatal Diagnosis",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          11,
           24
         ]
       ]
     },
-    "URL": "https://doi.org/c7np",
-    "container-title-short": "PLoS Comput Biol",
-    "PMCID": "PMC6611653",
-    "PMID": "31233491",
-    "id": "YuJbg3zO",
-    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1371/journal.pcbi.1007128"
+    "URL": "https://doi.org/hcjc4v",
+    "container-title-short": "Prenatal Diagnosis",
+    "PMID": "27859447",
+    "id": "163P4wZ3V",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1002/pd.4957"
   },
   {
-    "publisher": "eLife Sciences Publications, Ltd",
-    "abstract": "<jats:p>The website Sci-Hub enables users to download PDF versions of scholarly articles, including many articles that are paywalled at their journal’s site. Sci-Hub has grown rapidly since its creation in 2011, but the extent of its coverage has been unclear. Here we report that, as of March 2017, Sci-Hub’s database contains 68.9% of the 81.6 million scholarly articles registered with Crossref and 85.1% of articles published in toll access journals. We find that coverage varies by discipline and publisher, and that Sci-Hub preferentially covers popular, paywalled content. For toll access articles, we find that Sci-Hub provides greater coverage than the University of Pennsylvania, a major research university in the United States. Green open access to toll access articles via licit services, on the other hand, remains quite limited. Our interactive browser at https://greenelab.github.io/scihub allows users to explore these findings in more detail. For the first time, nearly all scholarly literature is available gratis to anyone with an Internet connection, suggesting the toll access business model may become unsustainable.</jats:p>",
-    "DOI": "10.7554/elife.32822",
+    "publisher": "Elsevier BV",
+    "issue": "13",
+    "DOI": "10.1016/j.celrep.2022.111883",
     "type": "article-journal",
+    "page": "111883",
     "source": "Crossref",
-    "title": "Sci-Hub provides access to nearly all scholarly literature",
-    "volume": "7",
+    "title": "IGF1 deficiency integrates stunted growth and neurodegeneration in Down syndrome",
+    "volume": "41",
     "author": [
       {
-        "given": "Daniel S",
-        "family": "Himmelstein"
+        "given": "Paula",
+        "family": "Araya"
       },
       {
-        "given": "Ariel Rodriguez",
-        "family": "Romero"
+        "given": "Kohl T.",
+        "family": "Kinning"
       },
       {
-        "given": "Jacob G",
-        "family": "Levernier"
+        "given": "Christina",
+        "family": "Coughlan"
       },
       {
-        "given": "Thomas Anthony",
-        "family": "Munro"
+        "given": "Keith P.",
+        "family": "Smith"
       },
       {
-        "given": "Stephen Reid",
-        "family": "McLaughlin"
+        "given": "Ross E.",
+        "family": "Granrath"
       },
       {
-        "given": "Bastian",
-        "family": "Greshake Tzovaras"
+        "given": "Belinda A.",
+        "family": "Enriquez-Estrada"
       },
       {
-        "given": "Casey S",
-        "family": "Greene"
+        "given": "Kayleigh",
+        "family": "Worek"
+      },
+      {
+        "given": "Kelly D.",
+        "family": "Sullivan"
+      },
+      {
+        "given": "Angela L.",
+        "family": "Rachubinski"
+      },
+      {
+        "given": "Kristine",
+        "family": "Wolter-Warmerdam"
+      },
+      {
+        "given": "Francis",
+        "family": "Hickey"
+      },
+      {
+        "given": "Matthew D.",
+        "family": "Galbraith"
+      },
+      {
+        "given": "Huntington",
+        "family": "Potter"
+      },
+      {
+        "given": "Joaquin M.",
+        "family": "Espinosa"
       }
     ],
-    "container-title": "eLife",
+    "container-title": "Cell Reports",
     "language": "en",
     "issued": {
       "date-parts": [
         [
-          2018,
-          3,
-          1
+          2022,
+          12
         ]
       ]
     },
-    "URL": "https://doi.org/ckcj",
-    "PMCID": "PMC5832410",
-    "PMID": "29424689",
-    "id": "IhliSZDo",
-    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.7554/elife.32822"
+    "URL": "https://doi.org/hcjc4w",
+    "container-title-short": "Cell Reports",
+    "PMCID": "PMC9876612",
+    "PMID": "36577365",
+    "id": "ZkX23fLJ",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1016/j.celrep.2022.111883"
   },
   {
-    "id": "zBPP9YKu",
-    "type": "book",
-    "call-number": "Z286.O63 S83 2012",
-    "collection-title": "MIT Press essential knowledge series",
-    "event-place": "Cambridge, Mass",
-    "ISBN": "9780262517638",
-    "number-of-pages": "242",
-    "publisher": "MIT Press",
-    "publisher-place": "Cambridge, Mass",
-    "source": "Library of Congress ISBN",
-    "title": "Open access",
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Individuals with Down syndrome, the genetic condition caused by trisomy 21, exhibit strong inter-individual variability in terms of developmental phenotypes and diagnosis of co-occurring conditions. The mechanisms underlying this variable developmental and clinical presentation await elucidation. We report an investigation of human chromosome 21 gene overexpression in hundreds of research participants with Down syndrome, which led to the identification of two major subsets of co-expressed genes. Using clustering analyses, we identified three main molecular subtypes of trisomy 21, based on differential overexpression patterns of chromosome 21 genes. We subsequently performed multiomics comparative analyses among subtypes using whole blood transcriptomes, plasma proteomes and metabolomes, and immune cell profiles. These efforts revealed strong heterogeneity in dysregulation of key pathophysiological processes across the three subtypes, underscored by differential multiomics signatures related to inflammation, immunity, cell growth and proliferation, and metabolism. We also observed distinct patterns of immune cell changes across subtypes. These findings provide insights into the molecular heterogeneity of trisomy 21 and lay the foundation for the development of personalized medicine approaches for the clinical management of Down syndrome.</jats:p>",
+    "DOI": "10.1038/s41467-024-49781-1",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Variegated overexpression of chromosome 21 genes reveals molecular and immune subtypes of Down syndrome",
+    "volume": "15",
     "author": [
       {
-        "family": "Suber",
-        "given": "Peter"
+        "given": "Micah G.",
+        "family": "Donovan"
+      },
+      {
+        "given": "Neetha P.",
+        "family": "Eduthan"
+      },
+      {
+        "given": "Keith P.",
+        "family": "Smith"
+      },
+      {
+        "given": "Eleanor C.",
+        "family": "Britton"
+      },
+      {
+        "given": "Hannah R.",
+        "family": "Lyford"
+      },
+      {
+        "given": "Paula",
+        "family": "Araya"
+      },
+      {
+        "given": "Ross E.",
+        "family": "Granrath"
+      },
+      {
+        "given": "Katherine A.",
+        "family": "Waugh"
+      },
+      {
+        "given": "Belinda",
+        "family": "Enriquez Estrada"
+      },
+      {
+        "given": "Angela L.",
+        "family": "Rachubinski"
+      },
+      {
+        "given": "Kelly D.",
+        "family": "Sullivan"
+      },
+      {
+        "given": "Matthew D.",
+        "family": "Galbraith"
+      },
+      {
+        "given": "Joaquin M.",
+        "family": "Espinosa"
       }
     ],
+    "container-title": "Nature Communications",
+    "language": "en",
     "issued": {
       "date-parts": [
         [
-          "2012"
+          2024,
+          6,
+          28
         ]
       ]
     },
-    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: isbn:9780262517638"
+    "URL": "https://doi.org/g9ndh8",
+    "container-title-short": "Nat Commun",
+    "PMCID": "PMC11213896",
+    "PMID": "38942750",
+    "id": "awlLhrty",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41467-024-49781-1"
   },
   {
-    "source": "PubMed",
-    "accessed": {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1038/s41572-019-0143-7",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Down syndrome",
+    "volume": "6",
+    "author": [
+      {
+        "given": "Stylianos E.",
+        "family": "Antonarakis"
+      },
+      {
+        "given": "Brian G.",
+        "family": "Skotko"
+      },
+      {
+        "given": "Michael S.",
+        "family": "Rafii"
+      },
+      {
+        "given": "Andre",
+        "family": "Strydom"
+      },
+      {
+        "given": "Sarah E.",
+        "family": "Pape"
+      },
+      {
+        "given": "Diana W.",
+        "family": "Bianchi"
+      },
+      {
+        "given": "Stephanie L.",
+        "family": "Sherman"
+      },
+      {
+        "given": "Roger H.",
+        "family": "Reeves"
+      }
+    ],
+    "container-title": "Nature Reviews Disease Primers",
+    "language": "en",
+    "issued": {
       "date-parts": [
         [
-          2026,
-          9,
-          11
+          2020,
+          2,
+          6
         ]
       ]
     },
-    "id": "mSMVRkoc",
-    "title": "Reproducibility of computational workflows is automated using continuous analysis",
+    "URL": "https://doi.org/ghn9hj",
+    "container-title-short": "Nat Rev Dis Primers",
+    "PMCID": "PMC8428796",
+    "PMID": "32029743",
+    "id": "lnuHgANf",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41572-019-0143-7"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "7",
+    "DOI": "10.1038/s41587-021-00861-3",
+    "type": "article-journal",
+    "page": "885-892",
+    "source": "Crossref",
+    "title": "A unified haplotype-based method for accurate and comprehensive variant calling",
+    "volume": "39",
     "author": [
       {
-        "family": "Beaulieu-Jones",
-        "given": "Brett K"
+        "given": "Daniel P.",
+        "family": "Cooke"
       },
       {
-        "family": "Greene",
-        "given": "Casey S"
+        "given": "David C.",
+        "family": "Wedge"
+      },
+      {
+        "given": "Gerton",
+        "family": "Lunter"
       }
     ],
+    "container-title": "Nature Biotechnology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          3,
+          29
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gjk4wp",
     "container-title-short": "Nat Biotechnol",
-    "container-title": "Nature biotechnology",
-    "publisher-place": "United States",
-    "ISSN": "1087-0156",
+    "PMCID": "PMC7611855",
+    "PMID": "33782612",
+    "id": "14JixP88o",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41587-021-00861-3"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "6",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Down syndrome (DS), the genetic condition caused by trisomy 21, is characterized by variable cognitive impairment, immune dysregulation, dysmorphogenesis and increased prevalence of diverse co-occurring conditions. The mechanisms by which trisomy 21 causes these effects remain largely unknown. We demonstrate that triplication of the interferon receptor (<jats:italic>IFNR</jats:italic>) gene cluster on chromosome 21 is necessary for multiple phenotypes in a mouse model of DS. Whole-blood transcriptome analysis demonstrated that <jats:italic>IFNR</jats:italic> overexpression associates with chronic interferon hyperactivity and inflammation in people with DS. To define the contribution of this locus to DS phenotypes, we used genome editing to correct its copy number in a mouse model of DS, which normalized antiviral responses, prevented heart malformations, ameliorated developmental delays, improved cognition and attenuated craniofacial anomalies. Triplication of the <jats:italic>Ifnr</jats:italic> locus modulates hallmarks of DS in mice, suggesting that trisomy 21 elicits an interferonopathy potentially amenable to therapeutic intervention.</jats:p>",
+    "DOI": "10.1038/s41588-023-01399-7",
+    "type": "article-journal",
+    "page": "1034-1047",
+    "source": "Crossref",
+    "title": "Triplication of the interferon receptor locus contributes to hallmarks of Down syndrome in a mouse model",
+    "volume": "55",
+    "author": [
+      {
+        "given": "Katherine A.",
+        "family": "Waugh"
+      },
+      {
+        "given": "Ross",
+        "family": "Minter"
+      },
+      {
+        "given": "Jessica",
+        "family": "Baxter"
+      },
+      {
+        "given": "Congwu",
+        "family": "Chi"
+      },
+      {
+        "given": "Matthew D.",
+        "family": "Galbraith"
+      },
+      {
+        "given": "Kathryn D.",
+        "family": "Tuttle"
+      },
+      {
+        "given": "Neetha P.",
+        "family": "Eduthan"
+      },
+      {
+        "given": "Kohl T.",
+        "family": "Kinning"
+      },
+      {
+        "given": "Zdenek",
+        "family": "Andrysik"
+      },
+      {
+        "given": "Paula",
+        "family": "Araya"
+      },
+      {
+        "given": "Hannah",
+        "family": "Dougherty"
+      },
+      {
+        "given": "Lauren N.",
+        "family": "Dunn"
+      },
+      {
+        "given": "Michael",
+        "family": "Ludwig"
+      },
+      {
+        "given": "Kyndal A.",
+        "family": "Schade"
+      },
+      {
+        "given": "Dayna",
+        "family": "Tracy"
+      },
+      {
+        "given": "Keith P.",
+        "family": "Smith"
+      },
+      {
+        "given": "Ross E.",
+        "family": "Granrath"
+      },
+      {
+        "given": "Nicolas",
+        "family": "Busquet"
+      },
+      {
+        "given": "Santosh",
+        "family": "Khanal"
+      },
+      {
+        "given": "Ryan D.",
+        "family": "Anderson"
+      },
+      {
+        "given": "Liza L.",
+        "family": "Cox"
+      },
+      {
+        "given": "Belinda Enriquez",
+        "family": "Estrada"
+      },
+      {
+        "given": "Angela L.",
+        "family": "Rachubinski"
+      },
+      {
+        "given": "Hannah R.",
+        "family": "Lyford"
+      },
+      {
+        "given": "Eleanor C.",
+        "family": "Britton"
+      },
+      {
+        "given": "Katherine A.",
+        "family": "Fantauzzo"
+      },
+      {
+        "given": "David J.",
+        "family": "Orlicky"
+      },
+      {
+        "given": "Jennifer L.",
+        "family": "Matsuda"
+      },
+      {
+        "given": "Kunhua",
+        "family": "Song"
+      },
+      {
+        "given": "Timothy C.",
+        "family": "Cox"
+      },
+      {
+        "given": "Kelly D.",
+        "family": "Sullivan"
+      },
+      {
+        "given": "Joaquin M.",
+        "family": "Espinosa"
+      }
+    ],
+    "container-title": "Nature Genetics",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "URL": "https://doi.org/g9ndkj",
+    "container-title-short": "Nat Genet",
+    "PMCID": "PMC10260402",
+    "PMID": "37277650",
+    "id": "QCBzJldP",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41588-023-01399-7"
+  },
+  {
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "2",
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Background</jats:title>\n                    <jats:p>SAMtools and BCFtools are widely used programs for processing and analysing high-throughput sequencing data. They include tools for file format conversion and manipulation, sorting, querying, statistics, variant calling, and effect analysis amongst other methods.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Findings</jats:title>\n                    <jats:p>The first version appeared online 12 years ago and has been maintained and further developed ever since, with many new features and improvements added over the years. The SAMtools and BCFtools packages represent a unique collection of tools that have been used in numerous other software projects and countless genomic pipelines.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusion</jats:title>\n                    <jats:p>Both SAMtools and BCFtools are freely available on GitHub under the permissive MIT licence, free for both non-commercial and commercial use. Both packages have been installed &amp;gt;1 million times via Bioconda. The source code and documentation are available from https://www.htslib.org.</jats:p>\n                  </jats:sec>",
+    "DOI": "10.1093/gigascience/giab008",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Twelve years of SAMtools and BCFtools",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Petr",
+        "family": "Danecek"
+      },
+      {
+        "given": "James K",
+        "family": "Bonfield"
+      },
+      {
+        "given": "Jennifer",
+        "family": "Liddle"
+      },
+      {
+        "given": "John",
+        "family": "Marshall"
+      },
+      {
+        "given": "Valeriu",
+        "family": "Ohan"
+      },
+      {
+        "given": "Martin O",
+        "family": "Pollard"
+      },
+      {
+        "given": "Andrew",
+        "family": "Whitwham"
+      },
+      {
+        "given": "Thomas",
+        "family": "Keane"
+      },
+      {
+        "given": "Shane A",
+        "family": "McCarthy"
+      },
+      {
+        "given": "Robert M",
+        "family": "Davies"
+      },
+      {
+        "given": "Heng",
+        "family": "Li"
+      }
+    ],
+    "container-title": "GigaScience",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          1,
+          29
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gjxzc9",
+    "PMCID": "PMC7931819",
+    "PMID": "33590861",
+    "id": "eyOvxHVn",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/gigascience/giab008"
+  },
+  {
+    "publisher": "Cold Spring Harbor Laboratory",
+    "issue": "1",
+    "abstract": "<jats:p>The majority of aneuploid fetuses are spontaneously miscarried. Nevertheless, some aneuploid individuals survive despite the strong genetic insult. Here, we investigate if the survival probability of aneuploid fetuses is affected by the genome-wide burden of slightly deleterious variants. We analyzed two cohorts of live-born Down syndrome individuals (388 genotyped samples and 16 fibroblast transcriptomes) and observed a deficit of slightly deleterious variants on Chromosome 21 and decreased transcriptome-wide variation in the expression level of highly constrained genes. We interpret these results as signatures of embryonic selection, and propose a genetic handicap model whereby an individual bearing an extremely severe deleterious variant (such as aneuploidy) could escape embryonic lethality if the genome-wide burden of slightly deleterious variants is sufficiently low. This approach can be used to study the composition and effect of the numerous slightly deleterious variants in humans and model organisms.</jats:p>",
+    "DOI": "10.1101/gr.228411.117",
+    "type": "article-journal",
+    "page": "1-10",
+    "source": "Crossref",
+    "title": "Slightly deleterious genomic variants and transcriptome perturbations in Down syndrome embryonic selection",
+    "volume": "28",
+    "author": [
+      {
+        "given": "Konstantin",
+        "family": "Popadin"
+      },
+      {
+        "given": "Stephan",
+        "family": "Peischl"
+      },
+      {
+        "given": "Marco",
+        "family": "Garieri"
+      },
+      {
+        "given": "M. Reza",
+        "family": "Sailani"
+      },
+      {
+        "given": "Audrey",
+        "family": "Letourneau"
+      },
+      {
+        "given": "Federico",
+        "family": "Santoni"
+      },
+      {
+        "given": "Samuel W.",
+        "family": "Lukowski"
+      },
+      {
+        "given": "Georgii A.",
+        "family": "Bazykin"
+      },
+      {
+        "given": "Sergey",
+        "family": "Nikolaev"
+      },
+      {
+        "given": "Diogo",
+        "family": "Meyer"
+      },
+      {
+        "given": "Laurent",
+        "family": "Excoffier"
+      },
+      {
+        "given": "Alexandre",
+        "family": "Reymond"
+      },
+      {
+        "given": "Stylianos E.",
+        "family": "Antonarakis"
+      }
+    ],
+    "container-title": "Genome Research",
+    "language": "en",
     "issued": {
       "date-parts": [
         [
           2017,
-          4
+          12,
+          13
         ]
       ]
     },
-    "page": "342-346",
-    "volume": "35",
-    "issue": "4",
-    "PMID": "28288103",
-    "PMCID": "PMC6103790",
-    "DOI": "10.1038/nbt.3780",
-    "type": "article-journal",
-    "URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/",
-    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: pmc:PMC6103790"
+    "URL": "https://doi.org/gcn3mr",
+    "container-title-short": "Genome Res.",
+    "PMCID": "PMC5749173",
+    "PMID": "29237728",
+    "id": "L3rcmypq",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1101/gr.228411.117"
   },
   {
-    "title": "Bitcoin for the biological literature.",
-    "volume": "566",
-    "issue": "7742",
-    "page": "141-142",
-    "container-title": "Nature",
-    "container-title-short": "Nature",
-    "ISSN": "1476-4687",
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "issue": "26",
+    "abstract": "<jats:p>Individuals with Down syndrome (DS) display chronic hyperactivation of interferon signaling. However, the clinical impacts of interferon hyperactivity in DS are ill-defined. Here, we describe a multiomics investigation of interferon signaling in hundreds of individuals with DS. Using interferon scores derived from the whole blood transcriptome, we defined the proteomic, immune, metabolic, and clinical features associated with interferon hyperactivity in DS. Interferon hyperactivity associates with a distinct proinflammatory phenotype and dysregulation of major growth signaling and morphogenic pathways. Individuals with the highest interferon activity display the strongest remodeling of the peripheral immune system, including increased cytotoxic T cells, B cell depletion, and monocyte activation. Interferon hyperactivity accompanies key metabolic changes, most prominently dysregulated tryptophan catabolism. High interferon signaling stratifies a subpopulation with elevated rates of congenital heart disease and autoimmunity. Last, a longitudinal case study demonstrated that JAK inhibition normalizes interferon signatures with therapeutic benefit in DS. Together, these results justify the testing of immune-modulatory therapies in DS.</jats:p>",
+    "DOI": "10.1126/sciadv.adg6218",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Multidimensional definition of the interferonopathy of Down syndrome and its response to JAK inhibition",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Matthew D.",
+        "family": "Galbraith"
+      },
+      {
+        "given": "Angela L.",
+        "family": "Rachubinski"
+      },
+      {
+        "given": "Keith P.",
+        "family": "Smith"
+      },
+      {
+        "given": "Paula",
+        "family": "Araya"
+      },
+      {
+        "given": "Katherine A.",
+        "family": "Waugh"
+      },
+      {
+        "given": "Belinda",
+        "family": "Enriquez-Estrada"
+      },
+      {
+        "given": "Kayleigh",
+        "family": "Worek"
+      },
+      {
+        "given": "Ross E.",
+        "family": "Granrath"
+      },
+      {
+        "given": "Kohl T.",
+        "family": "Kinning"
+      },
+      {
+        "given": "Neetha",
+        "family": "Paul Eduthan"
+      },
+      {
+        "given": "Michael P.",
+        "family": "Ludwig"
+      },
+      {
+        "given": "Elena W. Y.",
+        "family": "Hsieh"
+      },
+      {
+        "given": "Kelly D.",
+        "family": "Sullivan"
+      },
+      {
+        "given": "Joaquin M.",
+        "family": "Espinosa"
+      }
+    ],
+    "container-title": "Science Advances",
+    "language": "en",
     "issued": {
       "date-parts": [
         [
-          2019,
-          2
+          2023,
+          6,
+          30
         ]
       ]
     },
-    "author": [
-      {
-        "given": "Douglas",
-        "family": "Heaven"
-      }
-    ],
-    "PMID": "30718888",
-    "DOI": "10.1038/d41586-019-00447-9",
-    "URL": "https://www.ncbi.nlm.nih.gov/pubmed/30718888",
-    "type": "article-journal",
-    "id": "126Wi5Us4",
-    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: pubmed:30718888"
+    "URL": "https://doi.org/gtt8b2",
+    "container-title-short": "Sci. Adv.",
+    "PMCID": "PMC10306300",
+    "PMID": "37379383",
+    "id": "khD7RJrY",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1126/sciadv.adg6218"
   },
   {
-    "id": "1GGGHdsew",
-    "type": "report",
-    "language": "en-US",
-    "publisher": "Manubot",
-    "source": "greenelab.github.io",
-    "title": "Open collaborative writing with Manubot",
-    "URL": "https://greenelab.github.io/meta-review/",
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:sec>\n                    <jats:title>Background</jats:title>\n                    <jats:p>The increase in DNA copy number in Down syndrome (DS; caused by trisomy 21) has led to the DNA dosage hypothesis, which posits that the level of gene expression is proportional to the gene’s DNA copy number. Yet many reports have suggested that a proportion of chromosome 21 genes are dosage compensated back towards typical expression levels (1.0×). In contrast, other reports suggest that dosage compensation is not a common mechanism of gene regulation in trisomy 21, providing support to the DNA dosage hypothesis.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Results</jats:title>\n                    <jats:p>In our work, we use both simulated and real data to dissect the elements of differential expression analysis that can lead to the appearance of dosage compensation, even when compensation is demonstrably absent. Using lymphoblastoid cell lines derived from a family with an individual with Down syndrome, we demonstrate that dosage compensation is nearly absent at both nascent transcription (GRO-seq) and steady-state RNA (RNA-seq) levels. Furthermore, we link the limited apparent dosage compensation to expected allelic variation in transcription levels.</jats:p>\n                  </jats:sec>\n                  <jats:sec>\n                    <jats:title>Conclusions</jats:title>\n                    <jats:p>Transcription dosage compensation does not occur in Down syndrome. Simulated data containing no dosage compensation can appear to have dosage compensation when analyzed via standard methods. Moreover, some chromosome 21 genes that appear to be dosage compensated are consistent with allele specific expression.</jats:p>\n                  </jats:sec>",
+    "DOI": "10.1186/s12915-023-01700-4",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Transcription dosage compensation does not occur in Down syndrome",
+    "volume": "21",
     "author": [
       {
-        "family": "Himmelstein",
-        "given": "Daniel S."
+        "given": "Samuel",
+        "family": "Hunter"
       },
       {
-        "family": "Rubinetti",
-        "given": "Vincent"
+        "given": "Jo",
+        "family": "Hendrix"
       },
       {
-        "family": "Slochower",
-        "given": "David R."
+        "given": "Justin",
+        "family": "Freeman"
       },
       {
-        "family": "Hu",
-        "given": "Dongbo"
+        "given": "Robin D.",
+        "family": "Dowell"
       },
       {
-        "family": "Malladi",
-        "given": "Venkat S."
+        "given": "Mary A.",
+        "family": "Allen"
+      }
+    ],
+    "container-title": "BMC Biology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          10
+        ]
+      ]
+    },
+    "URL": "https://doi.org/hcjc4x",
+    "container-title-short": "BMC Biol",
+    "PMCID": "PMC10636926",
+    "PMID": "37946204",
+    "id": "E7R141uP",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1186/s12915-023-01700-4"
+  },
+  {
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "12",
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    In comparative high-throughput sequencing assays, a fundamental task is the analysis of count data, such as read counts per gene in RNA-seq, for evidence of systematic changes across experimental conditions. Small replicate numbers, discreteness, large dynamic range and the presence of outliers require a suitable statistical approach. We present\n                    <jats:italic>DESeq2</jats:italic>\n                    , a method for differential analysis of count data, using shrinkage estimation for dispersions and fold changes to improve stability and interpretability of estimates. This enables a more quantitative analysis focused on the strength rather than the mere presence of differential expression. The\n                    <jats:italic>DESeq2</jats:italic>\n                    package is available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html\">http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html</jats:ext-link>\n                    .\n                  </jats:p>",
+    "DOI": "10.1186/s13059-014-0550-8",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+    "volume": "15",
+    "author": [
+      {
+        "given": "Michael I",
+        "family": "Love"
       },
       {
-        "family": "Greene",
-        "given": "Casey S."
+        "given": "Wolfgang",
+        "family": "Huber"
       },
       {
-        "family": "Gitter",
-        "given": "Anthony"
+        "given": "Simon",
+        "family": "Anders"
+      }
+    ],
+    "container-title": "Genome Biology",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          12,
+          5
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gd3zvn",
+    "container-title-short": "Genome Biol",
+    "PMCID": "PMC4302049",
+    "PMID": "25516281",
+    "id": "w9AOzBMw",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1186/s13059-014-0550-8"
+  },
+  {
+    "publisher": "F1000 Research Ltd",
+    "abstract": "<ns4:p>Data analysis often entails a multitude of heterogeneous steps, from the application of various command line tools to the usage of scripting languages like R or Python for the generation of plots and tables. It is widely recognized that data analyses should ideally be conducted in a reproducible way. Reproducibility enables technical validation and regeneration of results on the original or even new data. However, reproducibility alone is by no means sufficient to deliver an analysis that is of lasting impact (i.e., sustainable) for the field, or even just one research group. We postulate that it is equally important to ensure adaptability and transparency. The former describes the ability to modify the analysis to answer extended or slightly different research questions. The latter describes the ability to understand the analysis in order to judge whether it is not only technically, but methodologically valid.</ns4:p>\n                  <ns4:p>Here, we analyze the properties needed for a data analysis to become reproducible, adaptable, and transparent. We show how the popular workflow management system Snakemake can be used to guarantee this, and how it enables an ergonomic, combined, unified representation of all steps involved in data analysis, ranging from raw data processing, to quality control and fine-grained, interactive exploration and plotting of final results.</ns4:p>",
+    "DOI": "10.12688/f1000research.29032.2",
+    "type": "article-journal",
+    "page": "33",
+    "source": "Crossref",
+    "title": "Sustainable data analysis with Snakemake",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Felix",
+        "family": "Mölder"
+      },
+      {
+        "given": "Kim Philipp",
+        "family": "Jablonski"
+      },
+      {
+        "given": "Brice",
+        "family": "Letcher"
+      },
+      {
+        "given": "Michael B.",
+        "family": "Hall"
+      },
+      {
+        "given": "Christopher H.",
+        "family": "Tomkins-Tinch"
+      },
+      {
+        "given": "Vanessa",
+        "family": "Sochat"
+      },
+      {
+        "given": "Jan",
+        "family": "Forster"
+      },
+      {
+        "given": "Soohyun",
+        "family": "Lee"
+      },
+      {
+        "given": "Sven O.",
+        "family": "Twardziok"
+      },
+      {
+        "given": "Alexander",
+        "family": "Kanitz"
+      },
+      {
+        "given": "Andreas",
+        "family": "Wilm"
+      },
+      {
+        "given": "Manuel",
+        "family": "Holtgrewe"
+      },
+      {
+        "given": "Sven",
+        "family": "Rahmann"
+      },
+      {
+        "given": "Sven",
+        "family": "Nahnsen"
+      },
+      {
+        "given": "Johannes",
+        "family": "Köster"
+      }
+    ],
+    "container-title": "F1000Research",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          19
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gj76rq",
+    "container-title-short": "F1000Res",
+    "PMCID": "PMC8114187",
+    "PMID": "34035898",
+    "id": "1Anhy7wy0",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.12688/f1000research.29032.2"
+  },
+  {
+    "id": "1HL2L6Bup",
+    "type": "article-journal",
+    "abstract": "The common approach to the multiplicity problem calls for controlling the familywise error rate (FWER). This approach, though, has faults, and we point out a few. A different approach to problems of multiple significance testing is presented. It calls for controlling the expected proportion of falsely rejected hypotheses-the false discovery rate. This error rate is equivalent to the FWER when all hypotheses are true but is smaller otherwise. Therefore, in problems where the control of the false discovery rate rather than that of the FWER is desired, there is potential for a gain in power. A simple sequential Bonferroni-type procedure is proved to control the false discovery rate for independent test statistics, and a simulation study shows that the gain in power is substantial. The use of the new procedure and the appropriateness of the criterion are illustrated with examples.",
+    "container-title": "Journal of the Royal Statistical Society. Series B (Methodological)",
+    "ISSN": "0035-9246",
+    "issue": "1",
+    "page": "289-300",
+    "source": "JSTOR",
+    "title": "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing",
+    "title-short": "Controlling the False Discovery Rate",
+    "URL": "https://www.jstor.org/stable/2346101",
+    "volume": "57",
+    "author": [
+      {
+        "family": "Benjamini",
+        "given": "Yoav"
+      },
+      {
+        "family": "Hochberg",
+        "given": "Yosef"
       }
     ],
     "accessed": {
@@ -433,43 +1088,17 @@
         [
           "2026",
           9,
-          11
+          24
         ]
       ]
     },
     "issued": {
       "date-parts": [
         [
-          "2020",
-          5,
-          25
+          "1995"
         ]
       ]
     },
-    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: url:https://greenelab.github.io/meta-review/"
-  },
-  {
-    "id": "QhC8yJ7V",
-    "type": "document",
-    "note": "QID: Q56458321\nThis CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: wikidata:Q56458321",
-    "source": "Wikidata",
-    "title": "Plan S: Accelerating the transition to full and immediate Open Access to scientific publications",
-    "title-short": "Plan S",
-    "author": [
-      {
-        "family": "S",
-        "given": "cOAlition"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2018",
-          9,
-          4
-        ]
-      ]
-    },
-    "URL": "https://www.wikidata.org/wiki/Q56458321"
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: url:https://www.jstor.org/stable/2346101"
   }
 ]
