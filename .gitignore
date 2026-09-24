@@ -41,3 +41,6 @@ Thumbs.db
 
 ## Text Editors
 .vscode
+data/supplementary_table_S1_hsa21_differential_expression.csv
+.gitignore
+data/supplementary_table_S2_common_allele_overlap.csv
