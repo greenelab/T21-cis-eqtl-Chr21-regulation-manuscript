@@ -26,8 +26,8 @@ header-includes: |
   <meta name="dc.date" content="2026-09-25" />
   <meta name="citation_publication_date" content="2026-09-25" />
   <meta property="article:published_time" content="2026-09-25" />
-  <meta name="dc.modified" content="2026-09-25T19:17:32+00:00" />
-  <meta property="article:modified_time" content="2026-09-25T19:17:32+00:00" />
+  <meta name="dc.modified" content="2026-09-25T19:39:47+00:00" />
+  <meta property="article:modified_time" content="2026-09-25T19:39:47+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/3d229750d469c349e702f9780a2bf15e73c92061/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/3d229750d469c349e702f9780a2bf15e73c92061/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/3d229750d469c349e702f9780a2bf15e73c92061/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/af467e90817ad098693c4cde99b030bff610e118/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/af467e90817ad098693c4cde99b030bff610e118/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/af467e90817ad098693c4cde99b030bff610e118/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/3d229750d469c349e702f9780a2bf15e73c92061/))
+([permalink](https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/af467e90817ad098693c4cde99b030bff610e118/))
 was automatically generated
-from [greenelab/T21-cis-eqtl-Chr21-regulation-manuscript@3d22975](https://github.com/greenelab/T21-cis-eqtl-Chr21-regulation-manuscript/tree/3d229750d469c349e702f9780a2bf15e73c92061)
+from [greenelab/T21-cis-eqtl-Chr21-regulation-manuscript@af467e9](https://github.com/greenelab/T21-cis-eqtl-Chr21-regulation-manuscript/tree/af467e90817ad098693c4cde99b030bff610e118)
 on September 25, 2026.
 </em></small>
 
@@ -215,7 +215,7 @@ Batched FCS files were demultiplexed and individual samples were normalized acro
 
 ### Mosaic Karyotyping
 <!-- Milton's comment: make this question explicit in the email; not sure if Mary will see it here -->
-[@Mary], how did you create the table of mosaic karyotypes?
+**TODO (Mary):** how did you create the table of mosaic karyotypes?
 
 ### Whole genome sequencing
 Whole genome sequencing of Human Trisome Project participants was performed at the Broad Institute as part of the NIH INCLUDE and Gabriella Miller Kids First projects, and the cohort is described by Feldman et al. [@doi:10.1002/gepi.70010].
@@ -320,6 +320,7 @@ The magnitude of the correction matches the ploidy expectation.
 Across the 318 HSA21 genes, the median fold change shifted from 0.601 (~log2(1.5) = 0.585) before correction to 0.016 after correction.
 Chromosome 22 showed no shift, confirming that the correction is specific to HSA21 (Figure {@fig:ploidy-correction}).
 
+<!-- Marc: do we need the titles and subtitles in the plots or we can move the information to the captions? -->
 ![Volcano plot restricted to HSA21 genes, with the 13 deviating genes labeled (red = higher, blue = lower, bold = tier 1).](images/figures/fig_volcano_chr21.png){#fig:volcano-chr21 width="90%"}
 
 ![Distribution of Down syndrome vs. control expression differences for all 318 targeted HSA21 genes, before and after ploidy correction, compared against chromosome 22.](images/figures/fig_ploidy_correction_distributions.png){#fig:ploidy-correction width="90%"}
@@ -336,6 +337,7 @@ Chromosome 22 showed no shift, confirming that the correction is specific to HSA
 Table: Classification of all 318 targeted HSA21 genes in the primary (adjusted) analysis. {#tbl:chr21-classification}
 
 ### *cis*-eQTLs explain variance in most deviating genes
+<!-- Marc: deviating genes we defined this in methods but I think a sentence here for the reader like We defined deviating genes as those whose expression differed from the expected 1.5-fold dosage effect by at least 33% (adjusted p < 0.01). -->
 To assess potential genetic effects explaining deviating genes, we compared the ploidy-aware genotypes and covariate-adjusted whole blood gene expression of 274 people with DS to common whole blood eQTLs.
 Of the 13 deviating genes, 3 (*ATP5PF*, *RUNX1*, *AP000282.1*) have no GTEx-tested variant nearby.
 Of the remaining 10 testable genes, 7 have a detected *cis*-eQTL and 3 do not (*ABCC13*, *BACE2*, *OLIG2*) (Table {@tbl:eqtl-genes}, Figures {@fig:eqtl-dosage} and {@fig:flow-map}A).
@@ -360,6 +362,12 @@ Allele frequencies for every tested variant, in GTEx whole blood, in gnomAD and 
 
 Table: *cis*-eQTL status of the 13 genes that deviate from the ploidy expectation in the primary (adjusted) analysis. {#tbl:eqtl-genes}
 
+<!--
+Marc: I'd move the text in the boxes into a suppl table, the text is too small; keeping the gene and the GTEx agreement maybe is enough, or commenting this in the results and the table maybe is enough.
+Same for fig 4.
+Also the genes in the plots should be italic.
+-->
+
 ![For each of the 10 testable deviating genes, expression against allele copy number in T21, at the variant with the strongest within-cohort signal. Each panel is drawn against the allele that GTEx links to that gene's own direction of deviation. A panel therefore trends up in A, the genes expressed higher than expected, and down in B, the genes expressed lower, when the cohort reproduces the GTEx direction. Panel labels give the minor allele, its frequency, and whether the minor allele runs with or against the deviation.](images/figures/fig_eqtl_dosage_panels.png){#fig:eqtl-dosage width="100%"}
 
 Effect sizes on the deviating genes' best variants were modest (~0.13--0.20 log2-CPM per additional copy of the minor allele).
@@ -380,6 +388,9 @@ Six genes remain open candidates for a mechanism other than a common *cis*-eQTL:
 Trisomy 21 increases the expression of most HSA21 genes by the expected 1.5-fold, yet there is a subset of HSA21 genes with expression more similar to disomic individuals [@doi:10.1186/s12915-023-01700-4; @doi:10.1038/s41467-024-49781-1].
 Lower- or higher-than-expected gene expression may reflect genetic variation across the population, compensatory regulation, or technical artifacts.
 No one had yet assessed the genetic variation hypothesis with gene expression and WGS profiles from a large, population-level cohort of people with DS.
+<!--
+Marc: I'd rewrite like they tested but in only 3 samples, explaining a bit the context as a result and then mention our gap, but nobody in a large cohort
+-->
 
 Hunter et al. tested the genetic regulation hypothesis within a family cohort consisting of one T21 child, one D21 child, and the two D21 parents [@doi:10.1186/s12915-023-01700-4].
 The authors found that only 5 genes had expression levels similar to diploid levels after considering coverage, high-repeat regions, and proper ploidy in the differential expression analysis.
@@ -391,6 +402,9 @@ In the present study, we did not find the same 5 deviating genes that Hunter et 
 The studies differ in cell type and cohort size.
 Hunter et al. measured lymphoblastoid cell lines in a cohort of 4 compared to the 354 whole blood profiles in this study.
 Yet the two studies agree on the mechanism: allele dosage explains the variance of most transcriptomic anomalies in people with T21.
+<!--
+Marc: I'd start with that part, it's our main conclusion result and add the differential genes but same mechanism after
+-->
 
 We demonstrated that the majority of HSA21 genes show the expected 1.5-fold change in gene expression if we filter out genes in high-repeat regions and genes with low coverage, and adjust the differential expression pipeline for sample ploidy.
 We tested for deviation both above and below the expected dosage.
@@ -401,12 +415,17 @@ Six genes had higher-than-expected expression, 4 of which had a detected *cis*-e
 The fact that most higher-than-expected genes have common *cis*-eQTLs confirms the genetic effect in the population regardless of any potential dosage compensation.
 For the lower-than-expected genes, 3 had a detected *cis*-eQTL (*OLIG1*, *KCNE1*, *PCBP3*), 2 had no detected *cis*-eQTL (*BACE2*, *OLIG2*), and 2 had no GTEx variant to test (*AP000282.1*, *RUNX1*).
 Future research on larger cohorts should attempt to reproduce the pattern of genetic control.
+<!--
+Marc: I'd move the last sentence with the limitations so we can have limitations and future research together
+-->
+
+<!-- Marc: related to fig 5B we can add that some of the genes can be in the neighboring TAD and having the same chromatin; some of the regions have been described in https://pmc.ncbi.nlm.nih.gov/articles/PMC12571509/ which can be the mechanism -->
 
 There are multiple other factors that may explain deviations in gene expression.
 <!-- Milton's comment: I think you already adjusted for cell composition changes, right? I suggested to remove it here -->
 Candidate non-genetic mechanisms for lower-than-expected transcript counts include autoregulatory feedback loops, post-transcriptional silencing by triplicated HSA21 miRNAs, chromatin remodeling, and alternative splicing into unstable isoforms.
 <!-- Milton's comment: I separated this since the previous sentence is about nongenetic effects only, right? the ones in the next sentence are genetic effects (I've added "either directions" (lower and greater than expected)) -->
-In either direction, genetic effects not captured by common *cis*-eQTLs, such as rare regulatory variants or *trans*-eQTLs, may also contribute.
+In either direction, genetic effects not captured by common *cis*-eQTLs, such as rare regulatory variants, splicing QTLs (sQTLs), or *trans*-eQTLs, may also contribute.
 Integrating evidence from additional omic profiles would enable the direct testing of multiple alternative hypotheses.
 Another promising direction is to merge results with GWAS disease hits to assess relationships to co-occurring conditions that present at higher frequencies in those with DS than in the general population.
 
