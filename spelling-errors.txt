@@ -7,7 +7,7 @@ autoregulatory
 BACE
 barcoding
 baseMean
-BCFtools
+bcftools
 Benjamini
 BioFrontiers
 bioinformatic
@@ -32,7 +32,6 @@ cytometry
 dbGaP
 demultiplexed
 DESeq
-differentially
 disomic
 downregulated
 DS
@@ -49,8 +48,8 @@ Gabriella
 GATK
 genomic
 genotype
-Genotypes
-genotyping
+genotypes
+Genotyping
 germline
 Gillenwater
 gnomAD
@@ -74,7 +73,7 @@ ITSN
 KAPA
 karyotype
 karyotypes
-Karyotyping
+karyotyping
 KCNE
 LINC
 lncRNA
@@ -98,7 +97,7 @@ PCBP
 PCR
 penetrance
 permeabilization
-phenotypes
+Phenotypes
 phospho
 Picard
 Pividori
@@ -114,7 +113,6 @@ QTLs
 QUAL
 Rachubinski
 recalibrated
-RNAseq
 RUNX
 Snakemake
 SNVs
@@ -129,7 +127,7 @@ triplication
 triploidy
 Trisome
 trisomic
-Trisomy
+trisomy
 unadjusted
 Valentini
 variatns
