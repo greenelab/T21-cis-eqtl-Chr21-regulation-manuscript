@@ -38,7 +38,7 @@ downregulated
 DS
 DSXX
 epitope
-eqtl
+eQTL
 eQTLs
 euploid
 FCS
@@ -98,7 +98,7 @@ PCBP
 PCR
 penetrance
 permeabilization
-Phenotypes
+phenotypes
 phospho
 Picard
 Pividori
@@ -129,7 +129,7 @@ triplication
 triploidy
 Trisome
 trisomic
-trisomy
+Trisomy
 unadjusted
 Valentini
 variatns

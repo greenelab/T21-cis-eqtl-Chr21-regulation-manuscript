@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2026-09-25'
+date-meta: '2026-10-01'
 author-meta:
 - Lucas A. Gillenwater
 - Marc Subirana-Granés
@@ -23,11 +23,11 @@ header-includes: |
   <meta name="citation_title" content="Cis-gene regulation explains most chromosome 21 expression deviations from the ploidy expectation in Down syndrome" />
   <meta property="og:title" content="Cis-gene regulation explains most chromosome 21 expression deviations from the ploidy expectation in Down syndrome" />
   <meta property="twitter:title" content="Cis-gene regulation explains most chromosome 21 expression deviations from the ploidy expectation in Down syndrome" />
-  <meta name="dc.date" content="2026-09-25" />
-  <meta name="citation_publication_date" content="2026-09-25" />
-  <meta property="article:published_time" content="2026-09-25" />
-  <meta name="dc.modified" content="2026-09-25T19:39:47+00:00" />
-  <meta property="article:modified_time" content="2026-09-25T19:39:47+00:00" />
+  <meta name="dc.date" content="2026-10-01" />
+  <meta name="citation_publication_date" content="2026-10-01" />
+  <meta property="article:published_time" content="2026-10-01" />
+  <meta name="dc.modified" content="2026-10-01T21:28:33+00:00" />
+  <meta property="article:modified_time" content="2026-10-01T21:28:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/af467e90817ad098693c4cde99b030bff610e118/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/af467e90817ad098693c4cde99b030bff610e118/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/af467e90817ad098693c4cde99b030bff610e118/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/85b278ba6fe29b0cba08b21aaf7ec9a4a2c160ea/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/85b278ba6fe29b0cba08b21aaf7ec9a4a2c160ea/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/85b278ba6fe29b0cba08b21aaf7ec9a4a2c160ea/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,10 +79,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/af467e90817ad098693c4cde99b030bff610e118/))
+([permalink](https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/85b278ba6fe29b0cba08b21aaf7ec9a4a2c160ea/))
 was automatically generated
-from [greenelab/T21-cis-eqtl-Chr21-regulation-manuscript@af467e9](https://github.com/greenelab/T21-cis-eqtl-Chr21-regulation-manuscript/tree/af467e90817ad098693c4cde99b030bff610e118)
-on September 25, 2026.
+from [greenelab/T21-cis-eqtl-Chr21-regulation-manuscript@85b278b](https://github.com/greenelab/T21-cis-eqtl-Chr21-regulation-manuscript/tree/85b278ba6fe29b0cba08b21aaf7ec9a4a2c160ea)
+on October 1, 2026.
 </em></small>
 
 
@@ -246,9 +246,9 @@ The workflow was implemented in Snakemake v9.16.3 [@doi:10.12688/f1000research.2
 
 <!-- Milton's comment: see if title heading correction below is fine -->
 ### Cohort filtering
-To assess genetic effects, we required samples to have matched whole blood bulk RNA sequencing counts, whole genome sequencing, cell type composition, as well as all demographic and technical data (i.e., age, sex, BMI, and sample source) ({@fig:s1-covariates}A).
+To assess genetic effects, we required samples to have matched whole blood bulk RNA sequencing counts, whole genome sequencing, cell type composition, as well as all demographic and technical data (i.e., age, sex, BMI, and sample source) (Figure {@fig:s1-covariates}A).
 Additionally, while 95% of individuals with DS have full T21, 5% are mosaic for T21.
-Mosaicism affects expression levels ({@fig:s1-covariates}C) and genotyping penetrance across cells.
+Mosaicism affects expression levels (Figure {@fig:s1-covariates}C) and genotyping penetrance across cells.
 Therefore, we removed samples with mosaic karyotypes (i.e., mosaic or translocation).
 
 ### Ploidy-aware differential expression analysis
@@ -258,7 +258,7 @@ We excluded HSA21 from the size-factor (library normalization) calculation so th
 As a negative control, we assessed the change in distribution for HSA22 genes between the run with default parameters and the ploidy-adjusted run.
 
 The model included age, sex, BMI, and sample source as covariates.
-In addition, cell type proportions affect gene expression ({@fig:s1-covariates}B).
+In addition, cell type proportions affect gene expression (Figure {@fig:s1-covariates}B).
 Therefore, we included 19 cell-type proportions as covariates in the model.
 <!-- Milton's comment: added BH paper below instead of jstor url -->
 P-values were adjusted for multiple testing across genes using the Benjamini-Hochberg procedure [@doi:10.1111/j.2517-6161.1995.tb02031.x].
@@ -282,7 +282,7 @@ As a negative control, each deviating gene was tested against variants near an u
 As a positive control, we tested the 10 HSA21 genes with the strongest GTEx whole-blood eQTL signal.
 
 ### Sensitivity analysis
-To quantify the effect of covariate adjustment and mosaic exclusion, we compared the adjusted results to the outputs from the identical pipeline without covariate adjustment and without excluding mosaic subjects ({@fig:s1-covariates}D, {@fig:s4-comparison}).
+To quantify the effect of covariate adjustment and mosaic exclusion, we compared the adjusted results to the outputs from the identical pipeline without covariate adjustment and without excluding mosaic subjects (Figures {@fig:s1-covariates}D and {@fig:s4-comparison}).
 
 ## Results {.page_break_before}
 
@@ -293,7 +293,7 @@ The HTP RNAseq cohort consisted of 399 individuals, 304 with DS and 95 euploid c
 Filtering removed samples missing cell-type composition (22) or BMI metadata (12), and samples with mosaic karyotypes for HSA21 (9).
 We also filtered samples from people with DS that did not have WGS data (2).
 We compared whole blood bulk RNA transcript counts between 274 T21 samples and 80 D21 samples, a total of 354 samples.
-People with DS had significantly higher body mass index (BMI) than those with euploid karyotypes ({@tbl:cohort-characteristics}).
+People with DS had significantly higher body mass index (BMI) than those with euploid karyotypes (Table {@tbl:cohort-characteristics}).
 Additionally, the D21 individuals were significantly older than those with T21 karyotypes.
 The sex composition did not significantly differ by karyotype.
 Though processed at the same facility, the samples were collected at 3 different locations.
@@ -476,30 +476,30 @@ The authors declare no competing interests.
 
 ### Supplement A: Evidence for covariate adjustment
 Before attributing a gene's deviation from the 1.5-fold expectation to HSA21 dosage rather than age, weight, or blood-cell composition, we confirmed, in the full cohort, that: (1) several clinical and demographic factors differ significantly by karyotype (age p = 0.033, BMI p < 0.0001; sex did not differ as strongly); (2) directly measured blood-cell-type composition is associated with expression of thousands of genes genome-wide; and (3) the 9 mosaic-DS subjects, whose cells do not all carry the extra chromosome, show a smaller chromosome-21 dosage effect (mean composite HSA21 index ≈ 1.07x) than subjects with full trisomy (≈1.35--1.45x), a sanity check that the dosage measurement itself behaves as expected.
-These findings motivate adjusting for age, sex, BMI, sample source, and cell-type composition in the primary analysis ({@fig:s1-covariates}).
+These findings motivate adjusting for age, sex, BMI, sample source, and cell-type composition in the primary analysis (Figure {@fig:s1-covariates}).
 
-![Covariate evidence for the adjusted analysis: (A) clinical/demographic factors by karyotype, (B) association of cell-type composition with genome-wide expression, (C) chromosome-21 dosage index in mosaic vs. full-trisomy subjects, (D) per-gene attribution of which covariate contributed most to the shift between the unadjusted and adjusted results.](images/figures/fig_S1_covariate_evidence.png){#fig:s1-covariates width="100%"}
+![Covariate evidence for the adjusted analysis: (A) clinical/demographic factors by karyotype, (B) association of cell-type composition with genome-wide expression, (C) chromosome-21 dosage index in mosaic vs. full-trisomy subjects, (D) per-gene attribution of which covariate contributed most to the shift between the unadjusted and adjusted results.](images/figures/fig_S1_covariate_evidence.png){#fig:s1-covariates tag="S1" width="100%"}
 
 <!-- Milton's comment: I think the heading level was wrong? -->
 
 ### Supplement B: Whole genome differential expression
-![Volcano plots of all target-biotype genes genome-wide, before and after ploidy correction, with HSA21 genes highlighted.](images/figures/fig_volcano_all_genes.png){#fig:s2-volcano-all width="100%"}
+![Volcano plots of all target-biotype genes genome-wide, before and after ploidy correction, with HSA21 genes highlighted.](images/figures/fig_volcano_all_genes.png){#fig:s2-volcano-all tag="S2" width="100%"}
 
 ### Supplement C: eQTL dosage controls
-![Positive and negative controls, in the same layout as the main dosage figure. Neither set has a direction of deviation to match, so both are drawn against minor-allele copy number. A: the 10 HSA21 genes with the strongest GTEx whole-blood eQTL signal. B: each deviating gene tested against variants near an unrelated gene at least 5 Mb away.](images/figures/fig_eqtl_dosage_controls.png){#fig:s3-eqtl-dosage-controls width="100%"}
+![Positive and negative controls, in the same layout as the main dosage figure. Neither set has a direction of deviation to match, so both are drawn against minor-allele copy number. A: the 10 HSA21 genes with the strongest GTEx whole-blood eQTL signal. B: each deviating gene tested against variants near an unrelated gene at least 5 Mb away.](images/figures/fig_eqtl_dosage_controls.png){#fig:s3-eqtl-dosage-controls tag="S3" width="100%"}
 
 
 ### Supplement D: Comparison to the unadjusted analysis
 Running the identical pipeline without covariate adjustment and without excluding mosaic subjects (397 subjects: 302 DS, 95 control) identified 23 deviating genes (10 higher, 13 lower) rather than 13, and detected a *cis*-eQTL for 14 of 20 testable genes rather than 7 of 10.
 Of the 13 genes that deviate in the primary (adjusted) analysis, 6 also deviate in the unadjusted analysis (*OLIG2*, *PCBP3*, *BACE2*, *YBEY*, *COL6A2*, *ABCC13*); the other 7 deviate only once age, weight, and cell-type composition are accounted for (*KCNE1*, *OLIG1*, *RUNX1*, *AP000282.1*, *CBR3*, *ADAMTS1*, *ATP5PF*).
-Of the 23 genes that deviate in the unadjusted analysis, 17 drop out once adjusted — though for 11 of those, the effect size is similar in the adjusted model and the gene simply falls short of the stricter significance threshold in the smaller, more heavily parameterized model, rather than the underlying effect disappearing. This comparison is the basis for reporting the adjusted analysis as primary while retaining the unadjusted analysis for transparency ({@fig:s4-comparison}).
+Of the 23 genes that deviate in the unadjusted analysis, 17 drop out once adjusted — though for 11 of those, the effect size is similar in the adjusted model and the gene simply falls short of the stricter significance threshold in the smaller, more heavily parameterized model, rather than the underlying effect disappearing. This comparison is the basis for reporting the adjusted analysis as primary while retaining the unadjusted analysis for transparency (Figure {@fig:s4-comparison}).
 
-![Gene-level comparison of ploidy-corrected fold change and significance between the adjusted (primary) and unadjusted (baseline) analyses.](images/figures/fig_run_comparison_adjusted_vs_baseline.png){#fig:s4-comparison width="90%"}
+![Gene-level comparison of ploidy-corrected fold change and significance between the adjusted (primary) and unadjusted (baseline) analyses.](images/figures/fig_run_comparison_adjusted_vs_baseline.png){#fig:s4-comparison tag="S4" width="90%"}
 
 
 ### Supplement E: HSA21 differential expression (Supplementary Table S1)
 `data/supplementary_table_S1_hsa21_differential_expression.csv` holds one row for each of the 318 targeted HSA21 genes: the DESeq2 base mean, the uncorrected and ploidy-corrected log2 fold change and adjusted p-value, the coverage and repeat flags, the dosage classification, and, for the genes that deviate, the gene-level *cis*-eQTL permutation result together with the best variant, its minor allele, and that allele's frequency.
-It is the source for {@tbl:chr21-classification}, {@tbl:eqtl-genes} and {@fig:flow-map}.
+It is the source for Tables {@tbl:chr21-classification} and {@tbl:eqtl-genes}, and Figure {@fig:flow-map}.
 
 ### Supplement F: Common allele overlap (Supplementary Table S2)
 `data/supplementary_table_S2_common_allele_overlap.csv` holds one row for each of the 4,981 *cis* variants tested within T21: position, reference and alternate allele, the alternate allele frequency in GTEx whole blood, in gnomAD v4.1 (global and non-Finnish European) and in this cohort, the minor allele each of those frequencies implies, and whether the three sources agree.
