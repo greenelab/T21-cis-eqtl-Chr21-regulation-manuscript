@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/greenelab/T21-cis-eqtl-Chr21-regulation-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/>.
-The permalink for this webpage version is <https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/33c62e07b2c8d7653e620e5b3bee98554d5ee74c/>.
+The permalink for this webpage version is <https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/7c6bf3a3cf4c77b3a98c8338dc79af582f110e49/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`33c62e07b2c8d7653e620e5b3bee98554d5ee74c`](https://github.com/greenelab/T21-cis-eqtl-Chr21-regulation-manuscript/commit/33c62e07b2c8d7653e620e5b3bee98554d5ee74c).
+[`7c6bf3a3cf4c77b3a98c8338dc79af582f110e49`](https://github.com/greenelab/T21-cis-eqtl-Chr21-regulation-manuscript/commit/7c6bf3a3cf4c77b3a98c8338dc79af582f110e49).
