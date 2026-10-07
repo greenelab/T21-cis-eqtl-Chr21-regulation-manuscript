@@ -2,9 +2,12 @@
 title: "Cis-gene regulation does not explain chromosome 21 expression deviations from the ploidy expectation in Down syndrome"
 date: null  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - Down syndrome
+  - trisomy 21
+  - chromosome 21
+  - eQTL
+  - gene expression
+  - whole blood
 lang: en-US
 authors:
   - name: Lucas A. Gillenwater
