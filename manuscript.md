@@ -1,5 +1,5 @@
 ---
-title: Cis-gene regulation does not explain chromosome 21 expression deviations from the ploidy expectation in Down syndrome
+title: Common *cis*-eQTLs do not explain chromosome 21 gene expression deviations from the ploidy expectation in Trisomy 21
 keywords:
 - Down syndrome
 - trisomy 21
@@ -11,10 +11,10 @@ lang: en-US
 date-meta: '2026-10-10'
 author-meta:
 - Lucas A. Gillenwater
-- Marc Subirana-Granés
 - Mary A. Allen
 - Milton Pividori
 - Casey S. Greene
+- Marc Subirana-Granés
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,15 +22,15 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="Cis-gene regulation does not explain chromosome 21 expression deviations from the ploidy expectation in Down syndrome" />
-  <meta name="citation_title" content="Cis-gene regulation does not explain chromosome 21 expression deviations from the ploidy expectation in Down syndrome" />
-  <meta property="og:title" content="Cis-gene regulation does not explain chromosome 21 expression deviations from the ploidy expectation in Down syndrome" />
-  <meta property="twitter:title" content="Cis-gene regulation does not explain chromosome 21 expression deviations from the ploidy expectation in Down syndrome" />
+  <meta name="dc.title" content="Common *cis*-eQTLs do not explain chromosome 21 gene expression deviations from the ploidy expectation in Trisomy 21" />
+  <meta name="citation_title" content="Common *cis*-eQTLs do not explain chromosome 21 gene expression deviations from the ploidy expectation in Trisomy 21" />
+  <meta property="og:title" content="Common *cis*-eQTLs do not explain chromosome 21 gene expression deviations from the ploidy expectation in Trisomy 21" />
+  <meta property="twitter:title" content="Common *cis*-eQTLs do not explain chromosome 21 gene expression deviations from the ploidy expectation in Trisomy 21" />
   <meta name="dc.date" content="2026-10-10" />
   <meta name="citation_publication_date" content="2026-10-10" />
   <meta property="article:published_time" content="2026-10-10" />
-  <meta name="dc.modified" content="2026-10-10T18:21:41+00:00" />
-  <meta property="article:modified_time" content="2026-10-10T18:21:41+00:00" />
+  <meta name="dc.modified" content="2026-10-10T23:38:38+00:00" />
+  <meta property="article:modified_time" content="2026-10-10T23:38:38+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -40,9 +40,6 @@ header-includes: |
   <meta name="citation_author" content="Lucas A. Gillenwater" />
   <meta name="citation_author_institution" content="Department of Biomedical Informatics, University of Colorado Anschutz, Aurora, CO" />
   <meta name="citation_author_orcid" content="0000-0003-3158-9682" />
-  <meta name="citation_author" content="Marc Subirana-Granés" />
-  <meta name="citation_author_institution" content="Department of Biomedical Informatics, University of Colorado Anschutz, Aurora, CO" />
-  <meta name="citation_author_orcid" content="0000-0003-3934-839X" />
   <meta name="citation_author" content="Mary A. Allen" />
   <meta name="citation_author_institution" content="BioFrontiers Institute, University of Colorado Boulder, Boulder, CO" />
   <meta name="citation_author_orcid" content="0000-0001-7490-0165" />
@@ -52,15 +49,18 @@ header-includes: |
   <meta name="citation_author" content="Casey S. Greene" />
   <meta name="citation_author_institution" content="Department of Biomedical Informatics, University of Colorado Anschutz, Aurora, CO" />
   <meta name="citation_author_orcid" content="0000-0001-8713-9213" />
+  <meta name="citation_author" content="Marc Subirana-Granés" />
+  <meta name="citation_author_institution" content="Department of Biomedical Informatics, University of Colorado Anschutz, Aurora, CO" />
+  <meta name="citation_author_orcid" content="0000-0003-3934-839X" />
   <link rel="canonical" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/" />
   <meta property="og:url" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/" />
   <meta property="twitter:url" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/31904017a84c37e8baab7b663cb5fe00f75cb3b0/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/31904017a84c37e8baab7b663cb5fe00f75cb3b0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/31904017a84c37e8baab7b663cb5fe00f75cb3b0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/f28a5ccff5c64c1ec013257cab2ce6895fd5ed34/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/f28a5ccff5c64c1ec013257cab2ce6895fd5ed34/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/f28a5ccff5c64c1ec013257cab2ce6895fd5ed34/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -80,33 +80,15 @@ manubot-clear-requests-cache: false
 
 
 
-<small><em>
-This manuscript
-([permalink](https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/31904017a84c37e8baab7b663cb5fe00f75cb3b0/))
-was automatically generated
-from [greenelab/T21-cis-eqtl-Chr21-regulation-manuscript@3190401](https://github.com/greenelab/T21-cis-eqtl-Chr21-regulation-manuscript/tree/31904017a84c37e8baab7b663cb5fe00f75cb3b0)
-on October 10, 2026.
-</em></small>
-
-
 
 ## Authors
 
 
 
 + **Lucas A. Gillenwater**
-  <br>
+  ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-3158-9682](https://orcid.org/0000-0003-3158-9682)
-    <br>
-  <small>
-     Department of Biomedical Informatics, University of Colorado Anschutz, Aurora, CO
-  </small>
-
-+ **Marc Subirana-Granés**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-3934-839X](https://orcid.org/0000-0003-3934-839X)
     <br>
   <small>
      Department of Biomedical Informatics, University of Colorado Anschutz, Aurora, CO
@@ -139,9 +121,20 @@ on October 10, 2026.
      Department of Biomedical Informatics, University of Colorado Anschutz, Aurora, CO
   </small>
 
++ **Marc Subirana-Granés**
+  ^[✉](#correspondence)^<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0003-3934-839X](https://orcid.org/0000-0003-3934-839X)
+    <br>
+  <small>
+     Department of Biomedical Informatics, University of Colorado Anschutz, Aurora, CO
+  </small>
+
 
 ::: {#correspondence}
-✉ — Correspondence possible via [GitHub Issues](https://github.com/greenelab/T21-cis-eqtl-Chr21-regulation-manuscript/issues)
+✉ — Correspondence via email to
+Lucas A. Gillenwater \<lucas.gillenwater@cuanschutz.edu\>, 
+Marc Subirana-Granés \<marc.subiranagranes@cuanschutz.edu\>.
 
 :::
 
@@ -149,27 +142,26 @@ on October 10, 2026.
 ## Abstract {.page_break_before}
 
 Down syndrome (DS) results from trisomy 21 (T21), the triplication of human chromosome 21 (HSA21).
-On average, genes on HSA21 are overexpressed at the expected 1.5-fold increase.
+On average, genes on HSA21 are overexpressed at the expected 1.5-fold increase in people with DS.
 A small subset of HSA21 genes is expressed closer to euploid levels.
 Could local genetic regulatory variation explain deviations from the expected dosage?
-Using the largest DS-specific transcriptomic dataset to date from the Human Trisome Project (HTP) and GTEx expression quantitative trait loci (eQTLs), we tested whether local genetic regulatory variation contributes to gene-specific buffering or amplification of HSA21 dosage effects in DS.
+Using the largest DS-specific transcriptomic dataset to date from the Human Trisome Project (HTP) and  common GTEx expression quantitative trait loci (eQTLs), we tested whether local genetic regulatory variation contributes to gene-specific buffering or amplification of HSA21 dosage effects in DS.
 
 We compared the bulk RNA-seq profiles of protein-coding genes, lncRNAs, and pseudogenes from whole-blood samples of 274 participants with T21 and 80 euploid (D21) participants.
 We filtered out genes with low read counts or high genomic repeat content and applied ploidy correction to the differential expression analysis.
 We found 13 genes that differed significantly from the expected fold change.
 We cross-referenced GTEx whole-blood eQTLs (*cis* window ±1 Mb) with the 13 deviating genes.
 A common *cis*-eQTL was detected for 8 of the 10 testable genes.
-However, 59 of 99 HSA21 genes that had the expected fold change had significant *cis*-eQTLs.
+However, 59 of 99 HSA21 genes that had the expected 1.5-fold change had significant *cis*-eQTLs.
 Additionally, T21 participants carry the eQTL alleles at similar frequencies to GTEx donors.
 Therefore, *cis*-eQTLs explain differences between people with T21, not the difference between T21 and D21.
 
 Overall, common *cis*-regulatory variation acts on HSA21 genes in T21 as it does in euploid blood, but it does not explain which genes deviate from the ploidy expectation.
 
 
-## Introduction {.page_break_before}
-
+## Introduction
 The triplication of human chromosome 21 (HSA21), trisomy 21 (T21), causes Down syndrome (DS).
-Multiple studies report that genes on HSA21 are expressed, on average, at the expected 1.5-fold change when compared to people with euploid karyotypes (disomic 21, D21) [@doi:10.1038/s41588-023-01399-7; @doi:10.1126/sciadv.adg6218; @doi:10.1016/j.celrep.2022.111883; @doi:10.1038/s41467-024-49781-1].
+Multiple studies report that genes on HSA21 are expressed, on average, at the expected 1.5-fold change when compared to people with euploid karyotypes (disomy 21, D21) [@doi:10.1038/s41588-023-01399-7; @doi:10.1126/sciadv.adg6218; @doi:10.1016/j.celrep.2022.111883; @doi:10.1038/s41467-024-49781-1].
 A small subset of HSA21 genes is expressed closer to euploid levels.
 Potential causes for lower-than-expected HSA21 gene expression include confounding cell-type proportions, genetic effects, and compensatory regulation.
 This study assesses the genetic effect hypothesis while controlling for cell-type proportions.
@@ -180,7 +172,7 @@ Valentini et al. assessed genomic effects with a genome-wide association study (
 A review by Antonarakis et al. noted that ~80% of T21 conceptuses are lost during pregnancy and inferred that a specific combination of genetic variants allows T21 conceptuses to survive to term [@doi:10.1038/s41572-019-0143-7].
 In 388 live-born individuals with DS, Popadin et al. found signatures of embryonic selection: a deficit of deleterious variants on HSA21 and reduced transcriptome-wide variation in the expression of highly constrained genes [@doi:10.1101/gr.228411.117].
 
-Hunter et al. tested whether the genotype of common expression quantitative trait loci (eQTLs) explained lower-than-expected gene expression of HSA21 genes in a child with DS compared to family members (i.e., brother, mother, and father euploid for HSA21) [@doi:10.1186/s12915-023-01700-4].
+Hunter et al. tested whether the genotype of common expression quantitative trait loci (eQTLs) explained lower-than-expected gene expression of HSA21 genes in a child with DS compared to family members (i.e., brother, mother, and father, all euploid for HSA21) [@doi:10.1186/s12915-023-01700-4].
 The authors introduced a methodology to control for common factors that bias differential expression studies in DS research.
 Specifically, the methodology accounted for genes with no reads, low gene expression, high genomic repeats, and karyotype.
 Overall, the analysis confirmed that the majority of HSA21 genes show the expected 1.5-fold change.
@@ -196,7 +188,7 @@ We compare the sample genotypes against common eQTLs found in whole blood of dis
 Overall, common *cis*-eQTLs affect HSA21 gene expression in people with T21 as they do in D21 individuals, but they do not explain which genes deviate from the expected 1.5-fold change.
 The genotype of one person can account for that person's deviations, as in Hunter et al., but common *cis*-regulatory variation does not explain the deviation at the population level.
 
-## Methods {.page_break_before}
+## Methods
 
 ### Study consent
 As part of the INCLUDE project, the Linda Crnic Institute for Down Syndrome at the University of Colorado Anschutz Medical Campus enrolled participants under a study protocol approved by the Colorado Multiple Institutional Review Board (COMIRB #15-2170).
@@ -206,7 +198,7 @@ HTP researchers recorded age, sex, and body mass index (BMI) during the visit.
 
 ### Whole-blood transcriptome quantification
 Waugh et al. [@doi:10.1038/s41588-023-01399-7] describe the process of blood collection, processing, and quantification in detail.
-Briefly, researchers collected peripheral blood in PAXgene RNA tubes (QIAGEN), performed poly-A+ RNA enrichment, and used the Illumina NovaSeq 6000 (Novogene) for paired-end sequencing before additional bioinformatic processing to produce gene-level count data.
+Briefly, researchers collected peripheral blood in PAXgene RNA tubes (QIAGEN), performed poly-A+ RNA enrichment, and used the Illumina NovaSeq 6000 (Novogene) for paired-end sequencing before additional bioinformatic processing.
 The libraries were globin-depleted and strand-specific (NEBNext Ultra II Directional), and gene-level counts were obtained by strand with HTSeq-count against the GENCODE v33 annotation (GEO GSE190125).
 
 ### Mass cytometry of white blood cells
@@ -236,16 +228,19 @@ Filtering retained approximately 85% of raw calls, corresponding to a median of 
 
 Within each group, PASS-filtered per-sample calls were merged with bcftools merge, keeping distinct alternate alleles at the same position as separate records (--merge none).
 Samples with no call at a merged site were assigned the homozygous reference genotype (--missing-to-ref; 0/0/0 in T21, 0/0 in D21).
+The samples were not jointly genotyped, so a missing call could not be distinguished from a homozygous reference genotype. 
+The missingness may have lowered alternate allele frequencies at sites with incomplete calls.
+We therefore checked the T21 allele frequencies against those of GTEx whole-blood donors for a systematic offset (see *cis*-eQTL comparisons).
 The resulting call sets comprised 688,787 variant records in the T21 group and 189,474 in the D21 group.
-Of these, 529,386 T21 and 142,792 D21 records contained an SNV, and 160,468 T21 and 46,845 D21 records contained an indel; a multiallelic record can contain both, so the two counts overlap.
+Of these, 529,386 T21 and 142,792 D21 records contained a single nucleotide variant (SNV), and 160,468 T21 and 46,845 D21 records contained an indel; a multiallelic record can contain both, so the two counts overlap.
 The workflow was implemented in Snakemake v9.16.3 [@doi:10.12688/f1000research.29032.2] and run on the Alpine high-performance computing cluster (University of Colorado Boulder Research Computing).
 
 ### Cohort filtering
 To assess genetic effects, we required samples to have matched whole-blood bulk RNA sequencing counts, whole genome sequencing, cell-type composition, and all demographic and technical data (i.e., age, sex, BMI, and sample source) (Figure {@fig:s1-covariates}A).
 Additionally, while ~95% of individuals with DS have full T21, translocation accounts for ~5% and mosaicism for ~2% of cases [@doi:10.1038/s41572-019-0143-7].
-Mosaicism affects expression levels (Figure {@fig:s1-covariates}C).
+Mosaicism affects expression levels (Figure {@fig:s1-covariates}B).
 Therefore, we removed samples with mosaic T21 (9 samples).
-We kept samples with translocation DS, whose HSA21 expression was similar to that of samples with full T21 (Figure {@fig:s1-covariates}C).
+We kept samples with translocation DS, whose HSA21 expression was similar to that of samples with full T21 (Figure {@fig:s1-covariates}B).
 The 274 T21 participants in the analysis cohort comprised 235 with full T21, 7 with translocation DS, and 32 whose karyotype subtype was not recorded (we therefore assume full T21).
 
 ### Ploidy-aware differential expression analysis
@@ -254,24 +249,25 @@ We compared DESeq2 [@doi:10.1186/s13059-014-0550-8] fits using default parameter
 We excluded HSA21 from the size-factor (library normalization) calculation so that HSA21's own inflated counts do not bias normalization for the rest of the genome.
 As a negative control, we assessed the change in distribution for HSA22 genes between the run with default parameters and the ploidy-adjusted run.
 
-The model included age, sex, BMI, and sample source as covariates.
-In addition, cell-type proportions affect gene expression (Figure {@fig:s1-covariates}B).
+The model included age, sex, BMI, and sample source as covariates since those variables were associated with karyotype (Table {@tbl:cohort-characteristics}).
+In addition, cell-type proportions affect gene expression (Figure {@fig:s1-covariates}C).
 Therefore, we included 19 cell-type proportions as covariates in the model.
 P-values were adjusted for multiple testing across genes using the Benjamini-Hochberg procedure [@doi:10.1111/j.2517-6161.1995.tb02031.x].
 
-We restricted HSA21 gene biotypes in whole blood to protein-coding, lncRNA, and pseudogenes since those are the gene biotypes covered by the GTEx eQTL data.
+We restricted the analysis of HSA21 genes to protein-coding, lncRNA, and pseudogenes since those are the gene biotypes covered by the GTEx eQTL data.
 We excluded genes with low average read counts (baseMean < 30) or that fall in genomic regions with high repeat content that cannot be reliably quantified.
 A gene was classified as deviating from the 1.5-fold ploidy expectation if its ploidy-corrected fold change differed from 1.5 by at least 33% (adjusted p < 0.01).
 Deviating genes were further stratified into tier 1 (≥50% deviation from the 1.5-fold expectation) and tier 2 (33–50% deviation).
+The filters and classification of each targeted HSA21 gene are given in Supplementary Table S1.
 
 ### *cis*-eQTL association testing
-For each deviating gene, we retrieved all variants within ±1 Mb that GTEx v10 annotates as at least nominally associated (GTEx nominal p ≤ 10^−4^) with that gene's expression in whole blood.
+For each deviating gene, we retrieved all variants within ±1 Mb that GTEx v10 annotates as at least nominally associated (GTEx p ≤ 10^−4^) with that gene's expression in whole blood.
 The minor allele refers to the GTEx whole-blood minor allele frequency and checked against gnomAD v4.1 (Supplementary Table S2).
 We regressed expression against genotype dosage (0-3 copies of the alternate minor allele) within T21 participants, with the covariates of the primary analysis (age, sex, BMI, sample source, and 19 cell-type proportions) regressed out of both expression and genotype dosage and retained each gene's strongest-associated variant.
-For each gene, we report the effect per copy of whichever allele, minor or major, correlates with the dirction of the fold-change between T21 and D21 participants.
-<!-- Milton's comment: are you running more permutations for genes that are borderline significant? -->
+For each gene, we report the effect per copy of whichever allele, minor or major, correlates with the direction of the fold-change between T21 and D21 participants.
 Statistical significance was assessed by a gene-level permutation test where the covariate-adjusted expression values were shuffled across participants 1,000 times, the same variant search was repeated on each shuffle, and the fraction of shuffles producing an association at least as strong as the observed one gave a gene-level permutation p-value.
 Permutation p-values were adjusted for multiple testing across genes using the Benjamini-Hochberg procedure [@doi:10.1111/j.2517-6161.1995.tb02031.x].
+A gene's *cis*-eQTL was considered detected at q < 0.05.
 
 ### *cis*-eQTL comparisons
 Under an additive model, each copy of HSA21 contributes to gene expression.
@@ -280,7 +276,7 @@ If the allele has the same frequency in both populations, the ratio is 1.5.
 
 The cohort had 14 D21 participants with WGS, only 2 of which had matching transcriptomic data.
 Therefore, we estimated D21 allele frequencies from the GTEx whole-blood donors.
-The T21 participants contribute 822 alleles (3 each), and the 800 GTEx whole-blood donors contribute 1,600 (Supplementary Table S2 also gives the frequencies in gnomAD v4.1 and in the 14 genotyped D21 participants).
+The T21 participants contribute 822 alleles (3 each), and the 800 GTEx whole-blood donors contribute 1,600 (Supplementary Table S2 also gives the frequencies in gnomAD v4.1).
 Confidence intervals for the difference assume binomial sampling in both groups.
 Therefore, a T21 participant's three copies are assumed independent, although two come from the same parent.
 We did not have parental WGS and therefore could not determine which parent experienced nondisjunction prior to mating.
@@ -298,8 +294,9 @@ Among the expected-dosage genes that are GTEx whole-blood eGenes (i.e., have an 
 To compare effect sizes, we estimated the aFC in T21 by least squares, modeling each of the three HSA21 copies as contributing its own expression and fitting the covariates jointly.
 Each dataset's effect was taken at its own strongest variant, so that both carry the same selection: the T21 aFC at the variant selected by the within-T21 test, signed by the GTEx direction at that variant, was divided by the absolute GTEx aFC at the GTEx lead variant.
 We compared this ratio between the deviating genes and the expected-dosage eGenes whose absolute GTEx aFC lay within the deviating genes' range, using a Wilcoxon rank-sum test.
-To estimate the power of the test for each tested deviating gene, we permuted its expression across participants, added an allelic effect at its GTEx lead variant under the three-copy model, and repeated the gene-level test, 200 times for each of a grid of effect sizes; a simulation counted as a detection at gene-level permutation p < 0.05, and power at the gene's GTEx aFC was interpolated from the grid.
-As a negative control, we regressed the expression of every assessable HSA21 gene on every common HSA21 variant at least 5 Mb from its transcription start site, where no *cis* effect is expected, and measured the genomic inflation factor (Supplement F).
+To estimate the power of the test for each tested deviating gene, we permuted its expression across participants, added an allelic effect at its GTEx lead variant under the three-copy model, and repeated the gene-level test, 200 times for each of a grid of effect sizes. 
+A simulation counted as a detection at gene-level permutation p < 0.05, and power at the gene's GTEx aFC was interpolated from the grid.
+As a negative control, we regressed the expression of every assessable HSA21 gene on every common HSA21 variant at least 5 Mb from its transcription start site, where no *cis* effect is expected, and measured the genomic inflation factor (Supplement B, Figure {@fig:s2-distal-inflation}).
 
 ### Expression of the HSA21 genes in blood
 To check that the deviating genes are expressed in blood, we took the median expression of each HSA21 gene in 68 tissues from GTEx v10, in transcripts per million (TPM) [@doi:10.1126/science.aaz1776].
@@ -317,9 +314,9 @@ Since the HTP libraries are globin-depleted and the GTEx libraries are not, we m
 To quantify the effect of covariate adjustment and mosaic exclusion, we compared the adjusted results to the outputs from the identical pipeline without covariate adjustment and without excluding mosaic participants (Figures {@fig:s1-covariates}D and {@fig:s3-comparison}).
 Additionally, we refit the adjusted model with an interaction between karyotype and each of the 19 cell fractions.
 The fractions were centered, so the karyotype effect is the T21 effect at the cohort-mean composition.
-The interaction terms widened the standard error of the karyotype effect by a median of 1.76-fold for HSA21 genes, so we compared effect estimates rather than significance across the models (Supplement C).
+The interaction terms widened the standard error of the karyotype effect by a median of 1.76-fold for HSA21 genes, so we compared effect estimates rather than significance across the models (Supplement C, Table {@tbl:s3-model-comparison}).
 
-## Results {.page_break_before}
+## Results
 
 ### Most chromosome 21 genes show a gene-dosage-dependent increase in expression
 To determine whether HSA21 genes in whole blood from people with T21 are expressed in proportion to their extra copy, we compared transcript levels between T21 and D21 participants before and after ploidy correction.
@@ -330,9 +327,10 @@ We also removed samples from T21 participants who did not have WGS data (2).
 We compared whole-blood bulk RNA transcript counts between 274 T21 samples and 80 D21 samples, a total of 354 samples.
 T21 participants had significantly higher body mass index (BMI) than D21 participants (Table {@tbl:cohort-characteristics}).
 The D21 participants were older than the T21 participants (median 27.4 vs. 24.0 years), but the difference was not significant.
-The sex composition did not significantly differ by karyotype.
+The sex composition did not significantly differ by karyotype, though a higher proportion of T21 participants were male.
 Though processed at the same facility, the samples were collected at 3 different locations.
 
+::: {style="font-size: 0.9em; break-inside: avoid; page-break-inside: avoid"}
 | Characteristic | Level | T21 (n=274) | D21 (n=80) |  P-value |
 |---|---|---|---|---|
 | Age at visit (years) | median [IQR] | 24.0 [16.1-32.5] | 27.4 [16.3-37.8] |  0.0802 |
@@ -343,48 +341,38 @@ Though processed at the same facility, the samples were collected at 3 different
 | | NDSC2018 | 81 (29.6%) | 7 (8.8%) | |
 | | NDSC2019 | 112 (40.9%) | 19 (23.8%) | |
 
+Table: Analysis cohort assembly and baseline characteristics, stratified by karyotype. P-values compare T21 and D21 participants: Wilcoxon rank-sum test for age and BMI, and Fisher's exact test for sex and sample source (for sample source, which has three levels, the p-value was simulated with 2,000 replicates). {#tbl:cohort-characteristics}
+:::
 
-Table: Analysis cohort assembly and baseline characteristics, stratified by karyotype. {#tbl:cohort-characteristics}
+![Differential expression of HSA21 genes between T21 and D21 participants, before and after ploidy correction. (A, B) The 318 targeted HSA21 genes before (A) and after (B) ploidy correction. Each point is one gene, plotted by its log~2~ fold change and the −log~10~ of its adjusted p-value. The dotted line in A marks the 1.5-fold expectation (log~2~ 1.5 = 0.585), and the dashed horizontal line marks adjusted p = 0.01. The 13 deviating genes are labeled and colored by direction (red, higher than expected; blue, lower than expected), with tier 1 genes in bold; other HSA21 genes are grey. (C) Density and (D) empirical cumulative distribution of the log~2~ fold change (T21 vs D21) for the 318 targeted HSA21 genes (purple) and 650 HSA22 genes (grey), on the uncorrected (light) and ploidy-corrected (dark) scales. Vertical lines mark 0 and log~2~ 1.5.](images/figures/fig1_dosage_correction.png){#fig:dosage-correction width="70%"}
 
 We assessed the effects of ploidy correction on the differential expression analysis.
 Of the 318 HSA21 genes, 153 had baseMean coverage $\ge$ 30 and were not in high-repeat regions.
 Before ploidy correction, statistically significant (adjusted p < 0.01) fold changes of at least 1.33 in either direction were observed in 76% (117) of the HSA21 genes passing thresholds.
-After ploidy correction, 13 genes (8.5%) still deviated from the expected 1.5-fold change by at least 33% in either direction, at adjusted p < 0.01 (Table {@tbl:chr21-classification} and Figures {@fig:volcano-chr21} and {@fig:s2-volcano-all}).
+After ploidy correction, 13 genes (8.5%) still deviated from the expected 1.5-fold change by at least 33% in either direction, at adjusted p < 0.01 (Table {@tbl:s4-classification} and Figures {@fig:dosage-correction}A–B and {@fig:s4-volcano-all}).
 The deviations of *OLIG2*, *BACE2*, *OLIG1*, and *RUNX1* were the most robust to the choice of covariate model (Supplement C).
 Per-gene statistics for all 318 genes are given in Supplementary Table S1.
 The magnitude of the correction matches the ploidy expectation.
 Across the 318 HSA21 genes, the median log2 fold change shifted from 0.593 (close to log2(1.5) = 0.585) before correction to 0.008 after correction.
-Chromosome 22 showed no shift, confirming that the correction is specific to HSA21 (Figure {@fig:ploidy-correction}).
-
-![Differential expression of the 318 targeted HSA21 genes between T21 and D21 participants, before (A) and after (B) ploidy correction. Each point is one gene, plotted by its log~2~ fold change and the −log~10~ of its adjusted p-value. The dotted line in A marks the 1.5-fold expectation (log~2~ 1.5 = 0.585), and the dashed horizontal line marks adjusted p = 0.01. The 13 deviating genes are labeled and colored by direction (red, higher than expected; blue, lower than expected), with tier 1 genes in bold; other HSA21 genes are grey. One gene in A exceeds the plotted range and is drawn as a triangle at the top edge.](images/figures/fig_volcano_chr21.png){#fig:volcano-chr21 width="90%"}
-
-![Effect of ploidy correction on the log~2~ fold change (T21 vs D21) of HSA21 genes. (A) Density and (B) empirical cumulative distribution for the 318 targeted HSA21 genes (purple) and 650 HSA22 genes (grey), on the uncorrected (light) and ploidy-corrected (dark) scales. Vertical lines mark 0 and log~2~ 1.5. The correction shifts the HSA21 median by −0.585 and leaves HSA22 unchanged; after correction the two distributions are similar (Kolmogorov–Smirnov D = 0.095).](images/figures/fig_ploidy_correction_distributions.png){#fig:ploidy-correction width="90%"}
-
-| Category | Genes |
-|---|---|
-| Expected dosage | 129 |
-| Low expression (not assessable) | 153 |
-| High repeats (not assessable) | 12 |
-| Near-threshold, not significant | 11 |
-| Deviates, higher (DE_high) | 6 |
-| Deviates, lower (DE_low) | 7 |
-
-Table: Classification of all 318 targeted HSA21 genes in the primary (adjusted) analysis. {#tbl:chr21-classification}
+Chromosome 22 showed no shift, confirming that the correction is specific to HSA21 (Figure {@fig:dosage-correction}C–D).
 
 ### Common *cis*-eQTLs affect gene expression in T21, but do not explain deviations in gene expression
-To assess potential genetic effects explaining deviating genes, we compared the ploidy-aware genotypes and covariate-adjusted whole-blood gene expression of 274 T21 participants to common whole-blood eQTLs.
-Three of the 13 deviating genes had no variant to test: GTEx tested *ATP5PF* and *RUNX1* in whole blood but found no eQTL (q = 0.22 and 0.21) [@doi:10.1126/science.aaz1776], and GTEx did not test *AP000282.1* in whole blood (the GTEx gene model excluded the exon it shares with *OLIG1*; Supplement G).
-Of the remaining 10 testable genes, 8 have a detected *cis*-eQTL and 2 do not (*BACE2*, *OLIG2*) (Table {@tbl:eqtl-genes}, Figures {@fig:flow-map}A and {@fig:s6-eqtl-dosage}).
-The expression of *ABCC13* (q = 0.034) is also associated with HSA21 genotype far from its own locus (Supplement F).
-All 13 deviating genes sit on the q arm, between 14.2 and 46.3 Mb (Figure {@fig:flow-map}B).
-Allele frequencies for every tested variant, in GTEx whole blood, in gnomAD, and in this cohort, are given in Supplementary Table S2.
+We corrected for ploidy in the differential expression analysis to find HSA21 genes that deviated from the expected dosage.
+A departure could reflect regulation that offsets or amplifies the extra copy, or common *cis*-regulatory alleles that differ in frequency between people with and without T21.
+To test the genetic explanation, we compared the ploidy-aware genotypes and covariate-adjusted whole-blood gene expression of 274 T21 participants to common whole-blood eQTLs.
 
-The deviating genes are measurably expressed in blood (Supplement G, Figure {@fig:s5-gtex-expression}A).
+Three of the 13 deviating genes had no variant to test: GTEx tested *ATP5PF* and *RUNX1* in whole blood but found no eQTL (q = 0.22 and 0.21) [@doi:10.1126/science.aaz1776], and GTEx did not test *AP000282.1* in whole blood (the GTEx gene model excluded the exon it shares with *OLIG1*; Supplement E).
+Of the remaining 10 testable genes, 8 have a detected *cis*-eQTL (gene-level permutation p < 0.001 for six, p = 0.002 for *KCNE1*, and p = 0.027 for *ABCC13*) and 2 do not (*BACE2*, p = 0.30; *OLIG2*, p = 0.40) (Table {@tbl:eqtl-genes}, Figure {@fig:classification}A–C).
+The expression of *ABCC13* (q = 0.034) is also associated with HSA21 genotype far from its own locus (Supplement B).
+All 13 deviating genes sit on the q arm, between 14.2 and 46.3 Mb (Figure {@fig:classification}D).
+The deviating genes are measurably expressed in blood (Supplement E, Figure {@fig:s5-gtex-expression}A).
 Expression level in GTEx did not correspond with eQTL detection (Figure {@fig:s5-gtex-expression}B).
 *OLIG2* and *BACE2* are among the least expressed in GTEx whole blood (0.27 and 0.71 TPM), yet GTEx detects strong whole-blood eQTLs for both (q = 1.2 × 10^−13^ and 6.2 × 10^−16^).
+Allele frequencies for every tested variant, in GTEx whole blood, in gnomAD, and in this cohort, are given in Supplementary Table S2.
 
+::: {style="font-size: 0.9em; break-inside: avoid; page-break-inside: avoid"}
 | Gene | Direction | Tier | *cis*-eQTL status |
-|---|---|---|---|
+|--------------|------------|------|--------------------------------------------|
 | *ABCC13* | Higher | 1 | Detected |
 | *CBR3* | Higher | 2 | Detected |
 | *ADAMTS1* | Higher | 2 | Detected |
@@ -400,34 +388,33 @@ Expression level in GTEx did not correspond with eQTL detection (Figure {@fig:s5
 | *RUNX1* | Lower | 2 | Not testable (no GTEx whole-blood eQTL) |
 
 Table: *cis*-eQTL status of the 13 genes that deviate from the ploidy expectation in the primary (adjusted) analysis. {#tbl:eqtl-genes}
+:::
 
+![Classification of the 318 targeted HSA21 genes, expression by genotype, and positions of the deviating genes. (A) Sankey plot of every gene from the full set through the dosage classification. (B, C) Expression against genotype at the best variant for the 10 testable deviating genes, in the 274 T21 participants. Each panel plots covariate adjusted expression against the number of copies (0 to 3) of the allele that GTEx links to the gene's direction of deviation. Boxes show the median and interquartile range, and the line is the within-T21 fit. Each panel gives the gene-level permutation p-value of the *cis*-eQTL test (1,000 permutations, with the variant search repeated on each). (D) Chromosome 21 (GRCh38) with a band at the transcription start site of each deviating gene, colored by *cis*-eQTL outcome: detected (black), tested without detection (white), or no variant to test, either because GTEx tested the gene in whole blood and found no eQTL (dark grey; *ATP5PF*, *RUNX1*) or because GTEx did not test it (light grey; *AP000282.1*).](images/figures/fig2_classification_and_genotype.png){#fig:classification width="85%"}
+
+![Effect size and power of the *cis*-eQTL test, and how much of each deviation a *cis*-eQTL could produce. (A) For each gene, the T21 allelic fold change at its strongest variant in T21 relative to the GTEx whole-blood allelic fold change at the GTEx lead variant, for the 10 testable deviating genes and the 49 expected-dosage GTEx eGenes whose GTEx effect lies in the same range (|log~2~ aFC| 0.32 to 1.39). The dashed line marks an effect equal to GTEx's and the dotted line none. Deviating genes are colored by direction and expected-dosage genes are grey. (B) Power of the gene-level test for each tested deviating gene, from 200 simulations per effect size with the gene's own genotypes, variant set, and expression noise. Points mark each gene's GTEx effect, and the dashed line marks 80%. (C) Alternate allele frequency of the 2,076 tested *cis* variants in the 274 T21 participants (822 copies) against the 800 GTEx whole-blood donors (1,600 copies), with the deviating genes' best variants labeled (filled, *cis*-eQTL detected in T21. (D) For each tested deviating gene, the observed deviation of log~2~(T21/D21) from log~2~ 1.5 (point, 95% CI, colored by direction as in A), the shift predicted by the observed frequency difference at its best variant (diamond, 95% CI), and the largest shift possible, with the alternate allele on every T21 copy or on none, taken at the 95% confidence edge of the slope (grey bar). (E) Fraction of expression variance among T21 participants explained by the best variant.](images/figures/fig3_eqtl_effects_and_frequencies.png){#fig:eqtl-effects width="85%"}
+
+### The detected *cis*-eQTLs cannot account for the deviations in gene expression.
 To ask whether a detected *cis*-eQTL is more common among the deviating genes than among HSA21 genes at the expected dosage, we applied the identical test to the 99 testable expected-dosage genes, of which 59 (60%) had a detected *cis*-eQTL.
-Among the 97 of these that are GTEx whole-blood eGenes, detection rose with the strength of the GTEx eQTL (p < 0.001), and at the deviating genes' own GTEx effect sizes it predicted 7.4 detections, against the 8 observed (probability of 8 or more, 0.49).
-The effects in T21 were also similar in size: relative to the GTEx effect, the median T21 allelic fold change was 0.73 for the deviating genes and 0.76 for the 49 expected-dosage eGenes with GTEx effects in the same range (Wilcoxon p = 0.64; Figure {@fig:eqtl-overview}A).
-*BACE2* and *OLIG2* were not missed for lack of power: with their GTEx effect added to their own permuted expression, the test detected it in 100% and 99% of simulations (Figure {@fig:eqtl-overview}B).
-Their T21 effects relative to GTEx (0.33 and 0.36) lay within the range of the 11 matched expected-dosage eGenes without a detected *cis*-eQTL (median 0.44).
-As a negative control, the expression of the assessable HSA21 genes regressed on common HSA21 variants at least 5 Mb away showed no inflation beyond its permutation range (λ = 1.020; Supplement F).
+The effects in T21 were similar in size relative to the GTEx effect.
+The median T21 allelic fold change was 0.73 for the deviating genes and 0.76 for the 49 expected-dosage eGenes with GTEx effects in the same range (Wilcoxon p = 0.64; Figure {@fig:eqtl-effects}A).
+As a negative control, the expression of the assessable HSA21 genes regressed on common HSA21 variants at least 5 Mb away showed no inflation beyond its permutation range (λ = 1.020; Supplement B).
+*BACE2* and *OLIG2* were not missed for lack of power. 
+Effect spike-in tests detected effects at power > .8 for all but 2 of the deviating genes, *ADAMTS1* and *ABCC13* {@fig:eqtl-effects}B).
 
-The detected *cis*-eQTLs cannot account for the deviations in gene expression.
 The T21 participants carried the tested alleles at frequencies that did not differ systematically from those of the 800 GTEx whole-blood donors.
-Across the 2,076 tested *cis* variants, the median difference was −0.0005({@fig:af-bound}A).
-At each tested gene's best variant, the observed frequency difference predicted between −8% and +4% of the deviation (Figure {@fig:af-bound}B).
+Across the 2,076 tested *cis* variants, the median difference was −0.0005 (Figure {@fig:eqtl-effects}C).
+At each tested gene's best variant, the observed frequency difference predicted between −8% and +4% of the deviation (Figure {@fig:eqtl-effects}D).
 Even if T21 participants carried the allele on every copy or on none, the best variant could not produce the observed deviation.
-The best variants explain 2% to 33% of the expression variance among T21 participants (Figure {@fig:af-bound}C).
-
-![Classification of the 318 targeted HSA21 genes and the positions of the deviating genes. (A) Flow of every gene from the full set through the dosage classification (expected dosage, 129; outside the dosage expectation, 24, of which 11 did not reach significance, 6 are higher than expected and 7 lower; not assessable, 165, of which 153 have low expression and 12 lie in high-repeat regions) to the *cis*-eQTL outcome of the 13 deviating genes (detected, 8; tested without detection, 2; no variant to test, 3). (B) Chromosome 21 (GRCh38) with a band at the transcription start site of each deviating gene, colored by *cis*-eQTL outcome: detected (black), tested without detection (white), or no variant to test, either because GTEx tested the gene in whole blood and found no eQTL (dark grey; *ATP5PF*, *RUNX1*) or because GTEx did not test it (light grey; *AP000282.1*). Bands of neighboring genes are stacked. The short arm is light grey and the centromere dark grey. Labels above the bar are genes higher than expected; labels below are genes lower than expected.](images/figures/fig_lane_flow_and_map.png){#fig:flow-map width="100%"}
-
-![Effect size and power of the *cis*-eQTL test. (A) For each gene, the T21 allelic fold change at its strongest variant in T21 relative to the GTEx whole-blood allelic fold change at the GTEx lead variant, for the 10 testable deviating genes and the 49 expected-dosage GTEx eGenes whose GTEx effect lies in the same range (|log~2~ aFC| 0.32 to 1.39). Each ratio is signed by the GTEx direction at the T21 variant, so the dashed line marks an effect equal to GTEx's and the dotted line none; bars mark the medians (0.73 vs 0.76, Wilcoxon p = 0.64). Filled points have a *cis*-eQTL detected in T21 and open points do not; deviating genes are colored by direction and expected-dosage genes are grey. (B) Power of the gene-level test for each tested deviating gene, from 200 simulations per effect size with the gene's own genotypes, variant set, and expression noise; points mark each gene's GTEx effect, and the dashed line marks 80%.](images/figures/fig_eqtl_detection_overview.png){#fig:eqtl-overview width="100%"}
-
-![How much of each deviation a *cis*-eQTL could produce. (A) Alternate allele frequency of the 2,076 tested *cis* variants in the 274 T21 participants (822 copies) against the 800 GTEx whole-blood donors (1,600 copies), with the deviating genes' best variants labeled (filled, *cis*-eQTL detected in T21; open, tested without detection). *OLIG1* and *OLIG2* share a best variant. The median difference is −0.0005 and the median absolute difference 0.012, against 0.009 expected from sampling alone. (B) For each tested deviating gene, the observed deviation of log~2~(T21/D21) from log~2~ 1.5 (point, 95% CI), the shift predicted by the observed frequency difference at its best variant (diamond, 95% CI), and the largest shift possible, with the alternate allele on every T21 copy or on none, taken at the 95% confidence edge of the slope (grey bar). (C) Fraction of expression variance among T21 participants explained by the best variant.](images/figures/fig_af_deviation_bound.png){#fig:af-bound width="100%"}
+The best variants explain 2% to 33% of the expression variance among T21 participants (Figure {@fig:eqtl-effects}E).
 
 In summary, after ploidy correction most HSA21 genes showed the expected increase with gene dosage, and 13 deviated.
 A common *cis*-eQTL was detected for 8 of the 10 testable deviating genes, about as often as for HSA21 genes at the expected dosage with eQTLs of the same GTEx strength, and with similar effect sizes.
 The T21 participants have allele frequencies that do not differ systematically from those of GTEx donors.
 *cis*-eQTLs explain differences between people with T21, not the difference between T21 and D21.
-Our work does not support the genetic hypothesis for expression deviations for any of the 13 genes outside of the 1.5-fold difference, including the 2 tested without a detected eQTL (*BACE2*, *OLIG2*) and the 3 that could not be tested (*ATP5PF*, *RUNX1*, *AP000282.1*) (Figure {@fig:flow-map}).
+Our work does not support the genetic hypothesis for expression deviations for any of the 13 genes outside of the 1.5-fold difference, including the 2 tested without a detected eQTL (*BACE2*, *OLIG2*) and the 3 that could not be tested (*ATP5PF*, *RUNX1*, *AP000282.1*) (Figure {@fig:classification}A).
 
-## Discussion {.page_break_before}
+## Discussion
 
 Trisomy 21 increases the expression of most HSA21 genes by the expected 1.5-fold, yet there is a subset of HSA21 genes with expression more similar to that of disomic individuals [@doi:10.1186/s12915-023-01700-4; @doi:10.1038/s41467-024-49781-1].
 Lower- or higher-than-expected gene expression may reflect genetic variation across the population, compensatory regulation, or technical artifacts.
@@ -442,28 +429,38 @@ In the present study, we did not find the same 5 deviating genes that Hunter et 
 *ITSN1*, *C2CD2*, and *BRWD1* are expressed in whole blood and sit at the expected dosage.
 *CLIC6* and *LINC02246* had low coverage.
 
-In a cohort of 4, where one individual had T21, the authors could attribute deviations in gene expression to the genotype of that person [@doi:10.1186/s12915-023-01700-4].
-The present study evaluated 354 whole-blood profiles and found that people with T21 carry the tested alleles at frequencies similar to those of euploid GTEx donors (Figure {@fig:af-bound}A).
-While both studies demonstrate the genomic effects on gene expression in people with DS (Figure {@fig:eqtl-overview}A), the higher powered study did not support the conclusion that eQTLs explain deviation from the expected 1.5-fold change (Figure {@fig:af-bound}B).
+In a cohort of 4, where one individual had T21, every expression difference between that person and the others reflects that person's genotype, including their eQTL alleles [@doi:10.1186/s12915-023-01700-4].
+A different set of four people would have different alleles and would show eQTL-driven differences at a different set of HSA21 genes.
+A population-level study asks whether eQTL effects produce a systematic difference between people with and without T21.
+The present study evaluated 354 whole-blood profiles and found that the tested alleles occur at similar frequencies in people with T21 and in euploid GTEx donors (Figure {@fig:eqtl-effects}C).
+Both studies show genetic effects on gene expression in people with DS (Figure {@fig:eqtl-effects}A), but at the population level eQTLs did not explain the deviations from the expected 1.5-fold change (Figure {@fig:eqtl-effects}D).
+Expression differences in a small sample reflect the alleles of the people sampled rather than persistent differences in people with T21.
 
 We demonstrated that the majority of HSA21 genes show the expected 1.5-fold change in gene expression if we filter out genes in high-repeat regions and genes with low coverage, and adjust the differential expression pipeline for sample ploidy.
 We tested for deviation both above and below the expected dosage.
 The compensation hypothesis predicts that genes are downregulated toward euploid levels, whereas eQTLs can raise or lower expression.
 Of the 10 deviating genes with a GTEx variant to test, 5 were higher than expected and 5 lower, and 8 had a detected *cis*-eQTL.
+
 The two genes that did not have *cis*-eQTLs were *BACE2* and *OLIG2*.
 *BACE2* codes for a homolog of β-secretase BACE1, a protein involved in amyloid precursor processing and associated with Alzheimer's disease in people with DS [@doi:10.1111/ejn.70623].
 *OLIG2* codes for a transcription factor involved in mammalian central nervous system development [@doi:10.3390/ijms25052968].
 Both were found to have lower expression in the population than expected, closer to the euploid level.
-Both are known for their roles in brain tissue and are expressed at low levels in blood, but GTEx detects strong whole-blood eQTLs for both, and the test had full power at their GTEx effect sizes (Figure {@fig:eqtl-overview}B; Supplement G).
+Both are known for their roles in brain tissue and are expressed at low levels in blood, but GTEx detects strong whole-blood eQTLs for both, and the test had full power at their GTEx effect sizes (Figure {@fig:eqtl-effects}B; Supplement E).
 Their T21 effects relative to GTEx (0.33 and 0.36) are within the range of matched expected-dosage eGenes in GTEx that were also not detected, and their deviations are among the most robust to the choice of covariate model (Supplement C).
 
 Overall, the genomic hypothesis does not explain deviating genes in this cohort.
 A *cis*-eQTL was detected for 60% of the expected-dosage HSA21 genes that could be tested, so the deviating genes were not unique.
-The eQTL effects in T21 had the same direction and a similar size as in GTEx (Figure {@fig:eqtl-overview}A).
+The eQTL effects in T21 had the same direction and a similar size as in GTEx (Figure {@fig:eqtl-effects}A).
 The mechanism for the deviation of these genes therefore remains open.
 
 There are multiple other factors that may explain deviations in gene expression.
 Candidate non-genetic mechanisms for lower-than-expected transcript counts include autoregulatory feedback loops, post-transcriptional silencing by triplicated HSA21 miRNAs, alternative splicing into unstable isoforms, and chromatin remodeling.
+In either direction, an HSA21 gene may also deviate because it lies downstream of pathways that other triplicated HSA21 genes misregulate.
+Three of the 7 genes lower than expected encode transcription factors (*OLIG1*, *OLIG2*, and *RUNX1*), a class in which autoregulation is common [@doi:10.1038/s41598-020-69791-5].
+Negative autoregulation would pull a gene's expression back toward the euploid level.
+For example, Laufer et al. proposed that hypermethylation of an enhancer within *RUNX1* by DNMT3A and DNMT3L attenuates RUNX1 overexpression by the time of birth in people with DS [@doi:10.1093/hmg/ddaa218].
+However, in this study *OLIG2* was expressed at one-third of the D21 level in people with DS, and therefore needs an additional explanation.
+
 Six of the 13 deviating genes are in the 21q22.1 region where Wu et al. observed A/B compartment switches in T21 fetal brain high throughput chromosome conformation capture (Hi-C) [@doi:10.1093/gpbjnl/qzaf054].
 In either direction, genetic effects not captured by common *cis*-eQTLs, such as rare regulatory variants, splicing QTLs (sQTLs), or *trans*-eQTLs, may also contribute.
 Integrating evidence from additional omic profiles would enable the direct testing of multiple alternative hypotheses.
@@ -474,7 +471,7 @@ GTEx mapped them in bulk tissue, which dilutes cell-type-specific effects [@doi:
 Donovan et al. found that whole-blood cell-type composition differed in subpopulations of this cohort [@doi:10.1038/s41467-024-49781-1].
 Cell-type-specific eQTLs, from single-cell data such as OneK1K [@doi:10.1126/science.abf3041], might be detected where bulk eQTLs were not.
 Moreover, ancestry may affect the observed eQTLs.
-Ancestry structure in the cohort was handled through covariates rather than genotype principal components (Supplement F).
+Ancestry structure in the cohort was handled through covariates rather than genotype principal components (Supplement B).
 
 The covariates, chosen for their association with karyotype, also affected which genes deviate.
 The unadjusted and adjusted analyses share 6 deviating genes.
@@ -483,10 +480,11 @@ The composition adjustment covers leukocytes only, so a gene expressed in erythr
 Even in the adjusted model, 9 of the 13 deviating genes lie between 33% and 50% from the expected dosage, within about one standard error of the threshold, and a larger cohort would resolve them.
 
 These results are relevant for the genomic hypothesis of embryonic selection.
-About 80% of T21 conceptions are lost before birth [@doi:10.1038/s41572-019-0143-7], and live-born people with DS carry fewer deleterious variants on HSA21 than expected [@doi:10.1101/gr.228411.117].
-If survival to term favored embryos whose common *cis*-regulatory alleles dampen dosage-sensitive HSA21 genes, live-born people with T21 would carry those alleles at shifted frequencies.
+About 80% of T21 conceptions are lost before birth [@doi:10.1038/s41572-019-0143-7], and live-born people with DS have fewer deleterious variants on HSA21 than expected [@doi:10.1101/gr.228411.117].
+If survival to term favored embryos whose common *cis*-regulatory alleles dampen dosage-sensitive HSA21 genes, those alleles would occur at shifted frequencies in live-born people with T21.
 We saw no such shift: across the 2,076 tested *cis* variants, the T21 frequencies did not differ systematically from those of GTEx donors.
-Future work should consider rare variants, effects across many loci, and interactions between loci.
+Most eQTLs mapped in healthy adult tissue have little phenotypic impact [@doi:10.1016/j.tig.2020.08.009], though such has not yet been tested in people with DS.
+Future work should consider rare variants, splicing QTLs, cell-type-specific eQTLs from single-cell data, effects across many loci, interactions between loci, and the representation in people with DS and co-occurring conditions.
 
 In the largest cohort to date with matched transcriptomes and ploidy-aware genotypes, common *cis*-eQTLs act on HSA21 genes in people with T21 as they do in D21 blood.
 Common eQTLs do not explain deviations in gene expression from the expected fold change since similar allele frequencies were observed in T21 and D21. 
@@ -517,6 +515,14 @@ The data used for the analyses described in this manuscript were obtained from t
 
 The authors declare no competing interests.
 
+## Declaration of generative AI and AI-assisted technologies
+
+This project used the AI assistant Claude, developed by Anthropic, during the development of the analysis code.
+Its assistance included generating initial code for the analyses and figures, and improving the code documentation. 
+Additionally, AI tools were used to critique drafts of this article and to identify opportunities to better communicate with a broader audience.
+The authors reviewed, tested, and validated all AI-generated content and take full responsibility for the content of this article.
+
+
 ## References {.page_break_before}
 
 <!-- Explicitly insert bibliography here -->
@@ -526,13 +532,26 @@ The authors declare no competing interests.
 ## Supplement {.page_break_before}
 
 ### Supplement A: Evidence for covariate adjustment
-Before attributing a gene's deviation from the 1.5-fold expectation to HSA21 dosage rather than age, BMI, or blood-cell composition, we confirmed, in the full cohort, that: (1) several clinical and demographic factors differ significantly by karyotype (age p = 0.033, BMI p < 0.0001; sex did not differ as strongly); (2) directly measured blood-cell-type composition is associated with expression of thousands of genes genome-wide; and (3) the 9 mosaic-DS participants, whose cells do not all carry the extra chromosome, show a smaller chromosome-21 dosage effect (mean composite HSA21 index ≈ 1.07x) than participants with full trisomy (≈1.35--1.45x), a sanity check that the dosage measurement itself behaves as expected.
+Before attributing a gene's deviation from the 1.5-fold expectation to HSA21 dosage rather than age, BMI, or blood-cell composition, we confirmed, in the full cohort, that: (1) several clinical and demographic factors differ significantly by karyotype (age p = 0.033, BMI p < 0.0001; sex did not differ as strongly (p=0.0982) though still differed); (2) directly measured blood-cell-type composition is associated with expression of thousands of genes genome-wide; and (3) the 9 mosaic-DS participants, whose cells do not all carry the extra chromosome, show a smaller chromosome-21 dosage effect (mean composite HSA21 index ≈ 1.07x) than participants with full trisomy (≈1.35--1.45x), a sanity check that the dosage measurement itself behaves as expected.
 These findings motivate adjusting for age, sex, BMI, sample source, and cell-type composition in the primary analysis (Figure {@fig:s1-covariates}).
 
-![Covariate evidence for the adjusted analysis. (A) Association of each candidate covariate with karyotype (−log~10~ p), colored by whether it entered the adjusted model; the dotted line marks p = 0.05. (B) Number of genes associated with each CyTOF cell fraction within T21 at 5% FDR. (C) HSA21 expression index (median ratio of HSA21 gene expression to D21) by karyotype subtype as recorded in the INCLUDE Data Hub (DS T21, Down syndrome with the subtype unspecified), with reference lines at 1 and 1.5; mosaic participants sit near 1. (D) For each gene that deviates in either analysis, the contribution of each covariate to the shift in log~2~ fold change between the unadjusted and adjusted analyses, colored by covariate.](images/figures/fig_S1_covariate_evidence.png){#fig:s1-covariates tag="S1" width="100%"}
+![Covariate evidence for the adjusted analysis. (A) Association of each candidate covariate with karyotype (−log~10~ p), colored by whether it entered the adjusted model; the dotted line marks p = 0.05. (B) HSA21 expression index (median ratio of HSA21 gene expression to D21) by karyotype subtype as recorded in the INCLUDE Data Hub (DS T21, Down syndrome with the subtype unspecified), with reference lines at 1 and 1.5; mosaic participants sit near 1. (C) Number of genes associated with each CyTOF cell fraction within T21 at 5% FDR. (D) For each gene that deviates in either analysis, the contribution of each covariate to the shift in log~2~ fold change between the unadjusted and adjusted analyses, colored by covariate.](images/figures/fig_S1_covariate_evidence.png){#fig:s1-covariates tag="S1" width="100%"}
 
-### Supplement B: Whole genome differential expression
-![Differential expression of all genes of the targeted biotypes (protein-coding, lncRNA, pseudogene) genome-wide, before (A) and after (B) ploidy correction, with HSA21 genes highlighted and all other genes in grey. The dotted line in A marks the 1.5-fold expectation; before correction the HSA21 genes cluster around it and are almost uniformly significant, and after correction they center on zero.](images/figures/fig_volcano_all_genes.png){#fig:s2-volcano-all tag="S2" width="100%"}
+### Supplement B: Genotype structure in the within-T21 eQTL tests
+![Genotype structure in the within-T21 tests. (A) Quantile–quantile plots of T21 expression regressed on common HSA21 long-arm variants at least 5 Mb from each gene, for the assessable HSA21 genes (left) and for HSA22 reference genes (right), without covariate adjustment (unadjusted) and with the covariates regressed out of expression and genotype (adjusted); shaded, 95% range over 200 participant permutations. Each plot shows expected −log~10~ p up to 4, where most tests lie; the inset shows the full range with that window outlined. (B) Genomic inflation factor λ per gene set with its permutation 95% range. (C) Per-gene λ in the adjusted analysis, HSA21 assessable and HSA22 reference genes, with deviating genes colored by direction (red, higher than expected; blue, lower than expected); filled points lie outside the gene's own permutation 95% range. The five genes with the highest λ and the deviating genes outside their own range are labeled. (D) Each covariate of the adjusted analysis regressed on every common HSA21 long-arm variant; filled points lie outside their own permutation 95% range.](images/figures/fig_distal_inflation.png){#fig:s2-distal-inflation tag="S2" width="90%"}
+
+The *cis*-eQTL model does not include genotype principal components, so we measured genotype structure in the within-T21 tests directly.
+For each of the 153 assessable HSA21 genes (not repeat-flagged, base mean ≥ 30), T21 expression was regressed on every common variant on the HSA21 long arm (minor allele frequency ≥ 0.05 and call rate ≥ 0.95 among the T21 participants analyzed; 97,438 variants) at least 5 Mb from the gene's transcription start site, one ordinary least-squares regression per gene–variant pair (11.1 million pairs).
+At that distance a variant cannot tag the gene's own *cis* locus, so in the absence of structure the p-values are uniform and the genomic inflation factor λ is 1.
+Variants on the short arm and around the centromere were set aside: GRCh38 places false duplications of 21q22.3 there [@doi:10.1126/science.abl3533; @doi:10.1186/s13059-023-02863-7], so a variant's coordinate can put a long-arm gene's own *cis* signal more than 5 Mb away (for *GATD3A*, *PWP2*, *SIK1*, and *ICOSLG*, down to p ≈ 10^−46^); including them changes λ by less than 0.02.
+Two references were used to read λ.
+The same regressions were run for 400 expressed HSA22 genes: population structure would inflate their tests as much as those of HSA21 genes, whereas a signal tied to HSA21 copy number would not.
+Participant labels were also permuted 200 times, jointly across genes, which keeps the correlation between genes and the linkage disequilibrium between variants; the spread of λ over these permutations is its sampling range for these correlated tests, about ±0.04 for a gene set.
+
+Without covariate adjustment (302 T21 participants), λ was 1.074 for HSA21 genes and 1.044 for HSA22 genes, both above their permutation ranges, and 26 HSA21 genes lay outside their own permutation range, against a permutation median of 3 (Figure {@fig:s2-distal-inflation}A, B).
+In the primary analysis (274 T21 participants), with age, sex, BMI, sample source, and cell-type composition regressed out of both expression and genotype dosage as in the *cis*-eQTL test, λ was 1.020 for HSA21 genes (permutation range 0.966–1.031), 1.016 for the 13 deviating genes, and 1.017 for HSA22 genes, all within their permutation ranges.
+Three of the 24 adjustment covariates were themselves associated with HSA21 genotype across the chromosome, against a permutation median of 0 (Figure {@fig:s2-distal-inflation}D): recruitment at NDSC2019 and the CD27+ B-cell and CD4+ central memory T-cell fractions.
+The adjusted tests are therefore not inflated beyond their permutation range at the level of the gene set, but the adjustment reaches that through covariates that track genotype structure rather than through a direct measure of ancestry, and some gene-level structure may remain: 11 HSA21 genes lay outside their own permutation range against a permutation median of 3 (p = 0.04), among them two deviating genes, *COL6A2* and *ABCC13* (permutation p = 0.020 and 0.025; Figure {@fig:s2-distal-inflation}C).
 
 ### Supplement C: Comparison across covariate models
 Running the identical pipeline without covariate adjustment and without excluding mosaic participants (397 participants: 302 T21, 95 D21) identified 23 deviating genes (10 higher, 13 lower) rather than 13, and detected a *cis*-eQTL for 14 of 20 testable genes rather than 8 of 10.
@@ -549,8 +568,9 @@ Five genes kept similar estimates under the interaction model but lost significa
 The estimates for *KCNE1* and *PCBP3* shrank by about a third.
 The estimates for *CBR3* and *ATP5PF* disappeared, and neither gene deviated without adjustment, so their deviations depend on the assumption that composition relates to expression alike in both groups.
 None of the six genes higher than expected deviated under the interaction model, and no gene outside the 13 began to deviate.
-*OLIG1*, *OLIG2*, and *AP000282.1* lie within 60 kb of each other and their expression is correlated (Supplement G), so the four most robust genes may reflect three independent deviations.
+*OLIG1*, *OLIG2*, and *AP000282.1* lie within 60 kb of each other and their expression is correlated (Supplement E), so the four most robust genes may reflect three independent deviations.
 
+::: {style="font-size: 0.9em; break-inside: avoid; page-break-inside: avoid"}
 | Gene | Direction | Unadjusted | Adjusted | Interaction |
 |:--|:--|:--|:--|:--|
 | *OLIG2* | Lower | **−1.19 (−1.44, −0.94)** | **−2.18 (−2.63, −1.72)** | **−2.65 (−3.43, −1.88)** |
@@ -568,38 +588,32 @@ None of the six genes higher than expected deviated under the interaction model,
 | *ATP5PF* | Higher | 0.27 (0.13, 0.41) | **0.48 (0.22, 0.74)** | 0.19 (−0.24, 0.62) |
 
 Table: Ploidy-corrected log~2~ fold change (95% CI) of the 13 deviating genes under the unadjusted, adjusted (primary), and karyotype × cell-fraction interaction models. Bold estimates deviate in that model (adjusted p < 0.01 and a fold change of at least 1.33 in either direction). Genes are ordered from the most to the least robust. {#tbl:s3-model-comparison tag="S3"}
+:::
 
-![Comparison of the adjusted (primary) and unadjusted analyses. One row per gene that deviates in either analysis, showing its ploidy-corrected log~2~ fold change under the unadjusted (orange) and adjusted (purple) analyses, joined by a line; the dotted line marks zero.](images/figures/fig_run_comparison_adjusted_vs_baseline.png){#fig:s3-comparison tag="S3" width="90%"}
+::: {style="font-size: 0.9em; break-inside: avoid; page-break-inside: avoid"}
+| Classification | Subgroup | Genes |
+|:--|:--|--:|
+| Expected dosage | | 129 |
+| Outside the expectation (24) | Did not reach significance | 11 |
+| | Higher than expected | 6 |
+| | Lower than expected | 7 |
+| Not assessable (165) | Low expression | 153 |
+| | High repeats | 12 |
+| Total | | 318 |
 
+Table: Classification of all 318 targeted HSA21 genes in the primary (adjusted) analysis. {#tbl:s4-classification tag="S4"}
+:::
 
-### Supplement D: HSA21 differential expression (Supplementary Table S1)
-`data/supplementary_table_S1_hsa21_differential_expression.csv` holds one row for each of the 318 targeted HSA21 genes: the DESeq2 base mean, the uncorrected and ploidy-corrected log2 fold change and adjusted p-value, the coverage and repeat flags, the dosage classification, and, for the genes that deviate, the gene-level *cis*-eQTL permutation result together with the best variant, its minor allele, and that allele's frequency.
-It is the source for Tables {@tbl:chr21-classification} and {@tbl:eqtl-genes}, and Figure {@fig:flow-map}.
+![Comparison of the adjusted (primary) and unadjusted analyses. One row per gene that deviates in either analysis, showing its ploidy-corrected log~2~ fold change under the unadjusted (orange) and adjusted (purple) analyses, joined by a line; the dotted line marks zero.](images/figures/fig_run_comparison_adjusted_vs_baseline.png){#fig:s3-comparison tag="S3" width="80%"}
 
-### Supplement E: Common allele overlap (Supplementary Table S2)
-`data/supplementary_table_S2_common_allele_overlap.csv` holds one row for each of the 2,076 *cis* variants tested within T21: position, reference and alternate allele, the alternate allele frequency in GTEx whole blood, in gnomAD v4.1 (global and non-Finnish European), and in this cohort, the minor allele each of those frequencies implies, and whether the three sources agree.
-It supports the minor-allele labels used in the figures, and shows where a variant's two alleles are too close in frequency for those labels to be stable.
-It is also the source for Figure {@fig:af-bound}A.
+### Supplement D: Whole genome differential expression
+![Differential expression of all genes of the targeted biotypes (protein-coding, lncRNA, pseudogene) genome-wide, before (A) and after (B) ploidy correction, with HSA21 genes highlighted and all other genes in grey. The dotted line in A marks the 1.5-fold expectation; before correction the HSA21 genes cluster around it and are almost uniformly significant, and after correction they center on zero.](images/figures/fig_volcano_all_genes.png){#fig:s4-volcano-all tag="S4" width="100%"}
 
-### Supplement F: Genotype structure in the within-T21 eQTL tests
-The *cis*-eQTL model does not include genotype principal components, so we measured genotype structure in the within-T21 tests directly.
-For each of the 153 assessable HSA21 genes (not repeat-flagged, base mean ≥ 30), T21 expression was regressed on every common variant on the HSA21 long arm (minor allele frequency ≥ 0.05 and call rate ≥ 0.95 among the T21 participants analyzed; 97,438 variants) at least 5 Mb from the gene's transcription start site, one ordinary least-squares regression per gene–variant pair (11.1 million pairs).
-At that distance a variant cannot tag the gene's own *cis* locus, so in the absence of structure the p-values are uniform and the genomic inflation factor λ is 1.
-Variants on the short arm and around the centromere were set aside: GRCh38 places false duplications of 21q22.3 there [@doi:10.1126/science.abl3533; @doi:10.1186/s13059-023-02863-7], so a variant's coordinate can put a long-arm gene's own *cis* signal more than 5 Mb away (for *GATD3A*, *PWP2*, *SIK1*, and *ICOSLG*, down to p ≈ 10^−46^); including them changes λ by less than 0.02.
-Two references were used to read λ.
-The same regressions were run for 400 expressed HSA22 genes: population structure would inflate their tests as much as those of HSA21 genes, whereas a signal tied to HSA21 copy number would not.
-Participant labels were also permuted 200 times, jointly across genes, which keeps the correlation between genes and the linkage disequilibrium between variants; the spread of λ over these permutations is its sampling range for these correlated tests, about ±0.04 for a gene set.
-
-Without covariate adjustment (302 T21 participants), λ was 1.074 for HSA21 genes and 1.044 for HSA22 genes, both above their permutation ranges, and 26 HSA21 genes lay outside their own permutation range, against a permutation median of 3 (Figure {@fig:s4-distal-inflation}A, B).
-In the primary analysis (274 T21 participants), with age, sex, BMI, sample source, and cell-type composition regressed out of both expression and genotype dosage as in the *cis*-eQTL test, λ was 1.020 for HSA21 genes (permutation range 0.966–1.031), 1.016 for the 13 deviating genes, and 1.017 for HSA22 genes, all within their permutation ranges.
-Three of the 24 adjustment covariates were themselves associated with HSA21 genotype across the chromosome, against a permutation median of 0 (Figure {@fig:s4-distal-inflation}D): recruitment at NDSC2019 and the CD27+ B-cell and CD4+ central memory T-cell fractions.
-The adjusted tests are therefore not inflated beyond their permutation range at the level of the gene set, but the adjustment reaches that through covariates that track genotype structure rather than through a direct measure of ancestry, and some gene-level structure may remain: 11 HSA21 genes lay outside their own permutation range against a permutation median of 3 (p = 0.04), among them two deviating genes, *COL6A2* and *ABCC13* (permutation p = 0.020 and 0.025; Figure {@fig:s4-distal-inflation}C).
-
-![Genotype structure in the within-T21 tests. (A) Quantile–quantile plots of T21 expression regressed on common HSA21 long-arm variants at least 5 Mb from each gene, for the assessable HSA21 genes (top) and for HSA22 reference genes (bottom), without covariate adjustment (unadjusted) and with the covariates regressed out of expression and genotype (adjusted); shaded, 95% range over 200 participant permutations. Each plot shows expected −log~10~ p up to 4, where most tests lie; the inset shows the full range with that window outlined. (B) Genomic inflation factor λ per gene set with its permutation 95% range. (C) Per-gene λ in the adjusted analysis, HSA21 assessable and HSA22 reference genes, with deviating genes colored by direction (red, higher than expected; blue, lower than expected); filled points lie outside the gene's own permutation 95% range. The five genes with the highest λ and the deviating genes outside their own range are labeled. (D) Each covariate of the adjusted analysis regressed on every common HSA21 long-arm variant; filled points lie outside their own permutation 95% range.](images/figures/fig_distal_inflation.png){#fig:s4-distal-inflation tag="S4" width="100%"}
-
-### Supplement G: Expression of the HSA21 genes in blood
+### Supplement E: Expression of the HSA21 genes in blood
 We compared HSA21 gene expression in GTEx v10 whole blood and other tissues.
 The deviating genes' whole-blood expression was lower than that of the expected-dosage genes, but not significantly (median 1.3 vs 3.1 TPM, Wilcoxon p = 0.34; Figure {@fig:s5-gtex-expression}A).
+
+![Expression of the HSA21 genes in blood. (A) GTEx v10 whole-blood median TPM of the classified HSA21 genes by classification. Deviating genes are colored by direction. (B) GTEx whole-blood eGene q-value (−log~10~) against whole-blood TPM for the 211 HSA21 genes that GTEx tested in whole blood. Filled points have a *cis*-eQTL detected in T21, open points were tested in T21 without detection, and crosses were not tested in T21 (102 genes); deviating genes are colored by direction and the dashed line marks q = 0.05. (C) Median TPM of each deviating gene in the 68 GTEx tissues. Whole blood (large point) is on the gene's line, and the other tissues are grouped by organ system below it. Labels give the rank of whole blood among the 68 tissues. (D) Median TPM in the 274 T21 participants against GTEx whole-blood TPM for the 309 classified HSA21 genes in GTEx, with point shapes as in B. The dotted line marks equality, and the dashed line marks the genome-wide HTP/GTEx offset (2.8-fold).](images/figures/gtex_tissue_expression.png){#fig:s5-gtex-expression tag="S5" width="100%"}
 
 Expression did not predict eQTL detection (Figure {@fig:s5-gtex-expression}B).
 Among the 211 HSA21 genes GTEx tested in whole blood, eGenes and non-eGenes had similar expression (median 1.28 vs 1.18 TPM, p = 0.36).
@@ -616,9 +630,4 @@ GTEx libraries are unstranded, so GTEx removes exon regions shared between genes
 The HTP libraries are stranded and were counted by strand, so the T21 counts belong to *AP000282.1* itself.
 *AP000282.1* is correlated with *OLIG1* (Spearman 0.67 in T21 after covariate adjustment).
 *OLIG1*, *OLIG2*, and *AP000282.1* may deviate as one locus rather than independently.
-
-![Expression of the HSA21 genes in blood. (A) GTEx v10 whole-blood median TPM of the classified HSA21 genes by classification. Deviating genes are colored by direction. (B) GTEx whole-blood eGene q-value (−log~10~) against whole-blood TPM for the 211 HSA21 genes that GTEx tested in whole blood. Filled points have a *cis*-eQTL detected in T21, open points were tested in T21 without detection, and crosses were not tested in T21 (102 genes); deviating genes are colored by direction and the dashed line marks q = 0.05. (C) Median TPM of each deviating gene in the 68 GTEx tissues. Whole blood (large point) is on the gene's line, and the other tissues are grouped by organ system below it. Labels give the rank of whole blood among the 68 tissues. (D) Median TPM in the 274 T21 participants against GTEx whole-blood TPM for the 309 classified HSA21 genes in GTEx, with point shapes as in B. The dotted line marks equality, and the dashed line marks the genome-wide HTP/GTEx offset (2.8-fold).](images/figures/gtex_tissue_expression.png){#fig:s5-gtex-expression tag="S5" width="100%"}
-
-### Supplement H: Expression by genotype at the best variant
-![Expression against genotype at the best variant for the 10 testable deviating genes, in the 274 T21 participants. Each panel plots covariate-adjusted expression against the number of copies (0 to 3) of the allele that GTEx links to the gene's direction of deviation, so a panel trends upward in A (genes higher than expected) and downward in B (genes lower than expected) when the cohort reproduces the GTEx direction. Boxes show the median and interquartile range, and the line is the within-T21 fit. Each panel names the gene and states whether the within-T21 trend agrees with GTEx; the variant, the plotted allele, and the minor allele and its frequency are given in Supplementary Table S1.](images/figures/fig_eqtl_dosage_panels.png){#fig:s6-eqtl-dosage tag="S6" width="100%"}
 
