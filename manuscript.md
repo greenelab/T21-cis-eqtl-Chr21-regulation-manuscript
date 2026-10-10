@@ -1,11 +1,14 @@
 ---
 title: Cis-gene regulation does not explain chromosome 21 expression deviations from the ploidy expectation in Down syndrome
 keywords:
-- markdown
-- publishing
-- manubot
+- Down syndrome
+- trisomy 21
+- chromosome 21
+- eQTL
+- gene expression
+- whole blood
 lang: en-US
-date-meta: '2026-10-06'
+date-meta: '2026-10-10'
 author-meta:
 - Lucas A. Gillenwater
 - Marc Subirana-Granés
@@ -23,11 +26,11 @@ header-includes: |
   <meta name="citation_title" content="Cis-gene regulation does not explain chromosome 21 expression deviations from the ploidy expectation in Down syndrome" />
   <meta property="og:title" content="Cis-gene regulation does not explain chromosome 21 expression deviations from the ploidy expectation in Down syndrome" />
   <meta property="twitter:title" content="Cis-gene regulation does not explain chromosome 21 expression deviations from the ploidy expectation in Down syndrome" />
-  <meta name="dc.date" content="2026-10-06" />
-  <meta name="citation_publication_date" content="2026-10-06" />
-  <meta property="article:published_time" content="2026-10-06" />
-  <meta name="dc.modified" content="2026-10-06T22:39:11+00:00" />
-  <meta property="article:modified_time" content="2026-10-06T22:39:11+00:00" />
+  <meta name="dc.date" content="2026-10-10" />
+  <meta name="citation_publication_date" content="2026-10-10" />
+  <meta property="article:published_time" content="2026-10-10" />
+  <meta name="dc.modified" content="2026-10-10T18:21:41+00:00" />
+  <meta property="article:modified_time" content="2026-10-10T18:21:41+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +58,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/7c6bf3a3cf4c77b3a98c8338dc79af582f110e49/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/7c6bf3a3cf4c77b3a98c8338dc79af582f110e49/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/7c6bf3a3cf4c77b3a98c8338dc79af582f110e49/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/31904017a84c37e8baab7b663cb5fe00f75cb3b0/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/31904017a84c37e8baab7b663cb5fe00f75cb3b0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/31904017a84c37e8baab7b663cb5fe00f75cb3b0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,10 +82,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/7c6bf3a3cf4c77b3a98c8338dc79af582f110e49/))
+([permalink](https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/31904017a84c37e8baab7b663cb5fe00f75cb3b0/))
 was automatically generated
-from [greenelab/T21-cis-eqtl-Chr21-regulation-manuscript@7c6bf3a](https://github.com/greenelab/T21-cis-eqtl-Chr21-regulation-manuscript/tree/7c6bf3a3cf4c77b3a98c8338dc79af582f110e49)
-on October 6, 2026.
+from [greenelab/T21-cis-eqtl-Chr21-regulation-manuscript@3190401](https://github.com/greenelab/T21-cis-eqtl-Chr21-regulation-manuscript/tree/31904017a84c37e8baab7b663cb5fe00f75cb3b0)
+on October 10, 2026.
 </em></small>
 
 

@@ -53,10 +53,10 @@ GATD
 GATK
 GENCODE
 genomic
-Genotype
+genotype
 genotyped
-Genotypes
-genotyping
+genotypes
+Genotyping
 germline
 Gillenwater
 globin
@@ -118,7 +118,7 @@ Picard
 Pividori
 Plex
 ploidies
-Ploidy
+ploidy
 PNPLA
 Popadin
 preprocessing
