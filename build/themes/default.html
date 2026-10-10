@@ -2,7 +2,7 @@
 
 <style>
   /* import google fonts */
-  @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i");
   @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
 
   /* -------------------------------------------------- */
@@ -542,6 +542,11 @@
     figure,
     table {
       font-size: 0.85em;
+    }
+
+    /* keep each figure on one page with its caption */
+    figure {
+      break-inside: avoid;
     }
 
     /* table cells */
