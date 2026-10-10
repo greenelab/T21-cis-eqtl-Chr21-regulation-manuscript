@@ -18,5 +18,46 @@
       "family": "Himmelstein"
     }
   ]
+},
+{
+  "id": "doi:10.1101/gr.216747.116",
+  "type": "article-journal",
+  "title": "Quantifying the regulatory effect size of cis-acting genetic variation using allelic fold change",
+  "container-title": "Genome Research",
+  "volume": "27",
+  "issue": "11",
+  "page": "1872-1884",
+  "author": [
+    {
+      "given": "Pejman",
+      "family": "Mohammadi"
+    },
+    {
+      "given": "Stephane E.",
+      "family": "Castel"
+    },
+    {
+      "given": "Andrew A.",
+      "family": "Brown"
+    },
+    {
+      "given": "Tuuli",
+      "family": "Lappalainen"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        10,
+        11
+      ]
+    ]
+  },
+  "DOI": "10.1101/gr.216747.116",
+  "URL": "https://doi.org/gd6gh5",
+  "publisher": "Cold Spring Harbor Laboratory",
+  "PMID": "29021289",
+  "PMCID": "PMC5668944"
 }
 ]
