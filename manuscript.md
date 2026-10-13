@@ -8,7 +8,7 @@ keywords:
 - gene expression
 - whole blood
 lang: en-US
-date-meta: '2026-10-10'
+date-meta: '2026-10-13'
 author-meta:
 - Lucas A. Gillenwater
 - Mary A. Allen
@@ -26,11 +26,11 @@ header-includes: |
   <meta name="citation_title" content="Common *cis*-eQTLs do not explain chromosome 21 gene expression deviations from the ploidy expectation in Trisomy 21" />
   <meta property="og:title" content="Common *cis*-eQTLs do not explain chromosome 21 gene expression deviations from the ploidy expectation in Trisomy 21" />
   <meta property="twitter:title" content="Common *cis*-eQTLs do not explain chromosome 21 gene expression deviations from the ploidy expectation in Trisomy 21" />
-  <meta name="dc.date" content="2026-10-10" />
-  <meta name="citation_publication_date" content="2026-10-10" />
-  <meta property="article:published_time" content="2026-10-10" />
-  <meta name="dc.modified" content="2026-10-10T23:38:38+00:00" />
-  <meta property="article:modified_time" content="2026-10-10T23:38:38+00:00" />
+  <meta name="dc.date" content="2026-10-13" />
+  <meta name="citation_publication_date" content="2026-10-13" />
+  <meta property="article:published_time" content="2026-10-13" />
+  <meta name="dc.modified" content="2026-10-13T17:03:58+00:00" />
+  <meta property="article:modified_time" content="2026-10-13T17:03:58+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -39,7 +39,7 @@ header-includes: |
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Lucas A. Gillenwater" />
   <meta name="citation_author_institution" content="Department of Biomedical Informatics, University of Colorado Anschutz, Aurora, CO" />
-  <meta name="citation_author_orcid" content="0000-0003-3158-9682" />
+  <meta name="citation_author_orcid" content="0000-0002-6995-0130" />
   <meta name="citation_author" content="Mary A. Allen" />
   <meta name="citation_author_institution" content="BioFrontiers Institute, University of Colorado Boulder, Boulder, CO" />
   <meta name="citation_author_orcid" content="0000-0001-7490-0165" />
@@ -58,9 +58,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/f28a5ccff5c64c1ec013257cab2ce6895fd5ed34/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/f28a5ccff5c64c1ec013257cab2ce6895fd5ed34/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/f28a5ccff5c64c1ec013257cab2ce6895fd5ed34/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/1cb3541237555abe32c8d89142d46534996854ef/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/1cb3541237555abe32c8d89142d46534996854ef/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/1cb3541237555abe32c8d89142d46534996854ef/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,7 +88,7 @@ manubot-clear-requests-cache: false
 + **Lucas A. Gillenwater**
   ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-3158-9682](https://orcid.org/0000-0003-3158-9682)
+    [0000-0002-6995-0130](https://orcid.org/0000-0002-6995-0130)
     <br>
   <small>
      Department of Biomedical Informatics, University of Colorado Anschutz, Aurora, CO

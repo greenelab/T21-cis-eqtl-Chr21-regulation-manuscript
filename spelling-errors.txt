@@ -10,7 +10,7 @@ autoregulatory
 BACE
 barcoding
 baseMean
-BCFtools
+bcftools
 Benjamini
 BioFrontiers
 bioinformatic
@@ -54,10 +54,10 @@ Gabriella
 GATD
 GATK
 GENCODE
-Genomic
+genomic
 genotype
 genotyped
-genotypes
+Genotypes
 Genotyping
 germline
 Gillenwater
@@ -118,7 +118,7 @@ PAXgene
 PCBP
 PCR
 permeabilization
-Phenotypes
+phenotypes
 phenotypic
 phospho
 Picard
@@ -159,7 +159,7 @@ triplication
 triploidy
 Trisome
 trisomy
-unadjusted
+Unadjusted
 unstranded
 Valentini
 WGS
