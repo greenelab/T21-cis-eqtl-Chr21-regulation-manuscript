@@ -8,7 +8,7 @@ keywords:
 - gene expression
 - whole blood
 lang: en-US
-date-meta: '2026-10-13'
+date-meta: '2026-10-27'
 author-meta:
 - Lucas A. Gillenwater
 - Mary A. Allen
@@ -26,11 +26,11 @@ header-includes: |
   <meta name="citation_title" content="Common *cis*-eQTLs do not explain chromosome 21 gene expression deviations from the ploidy expectation in Trisomy 21" />
   <meta property="og:title" content="Common *cis*-eQTLs do not explain chromosome 21 gene expression deviations from the ploidy expectation in Trisomy 21" />
   <meta property="twitter:title" content="Common *cis*-eQTLs do not explain chromosome 21 gene expression deviations from the ploidy expectation in Trisomy 21" />
-  <meta name="dc.date" content="2026-10-13" />
-  <meta name="citation_publication_date" content="2026-10-13" />
-  <meta property="article:published_time" content="2026-10-13" />
-  <meta name="dc.modified" content="2026-10-13T17:03:58+00:00" />
-  <meta property="article:modified_time" content="2026-10-13T17:03:58+00:00" />
+  <meta name="dc.date" content="2026-10-27" />
+  <meta name="citation_publication_date" content="2026-10-27" />
+  <meta property="article:published_time" content="2026-10-27" />
+  <meta name="dc.modified" content="2026-10-27T14:41:35+00:00" />
+  <meta property="article:modified_time" content="2026-10-27T14:41:35+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,9 +58,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/" />
   <meta name="citation_pdf_url" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/1cb3541237555abe32c8d89142d46534996854ef/" />
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/1cb3541237555abe32c8d89142d46534996854ef/" />
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/1cb3541237555abe32c8d89142d46534996854ef/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/73f1c1cadc326449f65691d03ebae8e95fe60514/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/73f1c1cadc326449f65691d03ebae8e95fe60514/" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/T21-cis-eqtl-Chr21-regulation-manuscript/v/73f1c1cadc326449f65691d03ebae8e95fe60514/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -319,7 +319,9 @@ The interaction terms widened the standard error of the karyotype effect by a me
 ## Results
 
 ### Most chromosome 21 genes show a gene-dosage-dependent increase in expression
-To determine whether HSA21 genes in whole blood from people with T21 are expressed in proportion to their extra copy, we compared transcript levels between T21 and D21 participants before and after ploidy correction.
+To determine whether HSA21 genes in whole blood from people with T21 are expressed in proportion to their extra copy, we compared transcript levels between T21 and D21 participants before and after ploidy correction (Figures {@fig:overview}A and {@fig:overview}B).
+
+![Scheme of the methods used to test whether *cis*-eQTLs explain deviations from the expected dosage of HSA21 genes in T21. (A) Whole-blood RNA-seq, mass cytometry (19 cell-type fractions), covariates, and whole-genome sequencing from T21 and D21 Human Trisome Project participants, with GTEx v10 whole-blood eQTLs as the euploid reference. (B) Ploidy-aware differential expression, with an expected 1.5-fold change for HSA21 genes in T21, classifies HSA21 genes as expected or deviating (red, higher; blue, lower). (C) Ploidy-aware genotyping of HSA21 with Octopus (ploidy 3 in T21, 2 in D21) gives 0-3 alternate-allele copies per variant. (D) Within T21, the expression of each gene is tested against allele dosage at GTEx whole-blood variants within ±1 Mb, and detection is compared between deviating and expected-dosage genes. (E) Allele frequencies in T21 are compared with GTEx, and an additive model gives the shift in the T21/D21 ratio each variant could produce.](images/figures/fig_overview.png){#fig:overview width="100%"}
 
 The HTP RNA-seq cohort consisted of 399 participants, 304 with T21 and 95 D21.
 Filtering removed samples missing cell-type composition (22) or BMI metadata (12), and samples with mosaic karyotypes for HSA21 (9).
@@ -359,7 +361,7 @@ Chromosome 22 showed no shift, confirming that the correction is specific to HSA
 ### Common *cis*-eQTLs affect gene expression in T21, but do not explain deviations in gene expression
 We corrected for ploidy in the differential expression analysis to find HSA21 genes that deviated from the expected dosage.
 A departure could reflect regulation that offsets or amplifies the extra copy, or common *cis*-regulatory alleles that differ in frequency between people with and without T21.
-To test the genetic explanation, we compared the ploidy-aware genotypes and covariate-adjusted whole-blood gene expression of 274 T21 participants to common whole-blood eQTLs.
+To test the genetic explanation, we compared the ploidy-aware genotypes and covariate-adjusted whole-blood gene expression of 274 T21 participants to common whole-blood eQTLs (Figures {@fig:overview}C and {@fig:overview}D).
 
 Three of the 13 deviating genes had no variant to test: GTEx tested *ATP5PF* and *RUNX1* in whole blood but found no eQTL (q = 0.22 and 0.21) [@doi:10.1126/science.aaz1776], and GTEx did not test *AP000282.1* in whole blood (the GTEx gene model excluded the exon it shares with *OLIG1*; Supplement E).
 Of the remaining 10 testable genes, 8 have a detected *cis*-eQTL (gene-level permutation p < 0.001 for six, p = 0.002 for *KCNE1*, and p = 0.027 for *ABCC13*) and 2 do not (*BACE2*, p = 0.30; *OLIG2*, p = 0.40) (Table {@tbl:eqtl-genes}, Figure {@fig:classification}A–C).
@@ -400,9 +402,9 @@ The effects in T21 were similar in size relative to the GTEx effect.
 The median T21 allelic fold change was 0.73 for the deviating genes and 0.76 for the 49 expected-dosage eGenes with GTEx effects in the same range (Wilcoxon p = 0.64; Figure {@fig:eqtl-effects}A).
 As a negative control, the expression of the assessable HSA21 genes regressed on common HSA21 variants at least 5 Mb away showed no inflation beyond its permutation range (λ = 1.020; Supplement B).
 *BACE2* and *OLIG2* were not missed for lack of power. 
-Effect spike-in tests detected effects at power > .8 for all but 2 of the deviating genes, *ADAMTS1* and *ABCC13* {@fig:eqtl-effects}B).
+Effect spike-in tests detected effects at power > .8 for all but 2 of the deviating genes, *ADAMTS1* and *ABCC13* (Figure {@fig:eqtl-effects}B).
 
-The T21 participants carried the tested alleles at frequencies that did not differ systematically from those of the 800 GTEx whole-blood donors.
+The T21 participants carried the tested alleles at frequencies that did not differ systematically from those of the 800 GTEx whole-blood donors (Figure {@fig:overview}E).
 Across the 2,076 tested *cis* variants, the median difference was −0.0005 (Figure {@fig:eqtl-effects}C).
 At each tested gene's best variant, the observed frequency difference predicted between −8% and +4% of the deviation (Figure {@fig:eqtl-effects}D).
 Even if T21 participants carried the allele on every copy or on none, the best variant could not produce the observed deviation.

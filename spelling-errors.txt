@@ -10,7 +10,7 @@ autoregulatory
 BACE
 barcoding
 baseMean
-bcftools
+BCFtools
 Benjamini
 BioFrontiers
 bioinformatic
@@ -44,7 +44,7 @@ duplications
 eGene
 eGenes
 epitope
-eQTL
+eqtl
 eQTLs
 erythroid
 euploid
@@ -57,7 +57,7 @@ GENCODE
 genomic
 genotype
 genotyped
-Genotypes
+genotypes
 Genotyping
 germline
 Gillenwater
@@ -118,7 +118,7 @@ PAXgene
 PCBP
 PCR
 permeabilization
-phenotypes
+Phenotypes
 phenotypic
 phospho
 Picard
@@ -158,7 +158,7 @@ transcriptomic
 triplication
 triploidy
 Trisome
-trisomy
+Trisomy
 Unadjusted
 unstranded
 Valentini
